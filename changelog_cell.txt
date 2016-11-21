@@ -1,5 +1,10 @@
 Viva la Potato Liberation
 
+v0.34
+Added: All units are medics and engineers
+Added: Added: Health regeneration if at 75% or more health
+	-Note: This is a workaround for FAKs not healing 100%. Once the FAK heals to 75%, slow regeneration will begin.
+
 v0.33
 Bug Fix: Blackscreen error message. GREUH_revive_camera.sqf
 

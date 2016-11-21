@@ -1,6 +1,11 @@
 # Customized version of the ARMA 3 mission Liberation.
 
-## Current version : 0.33
+## Current version : 0.34
+
+V0.34
+* Added: All units are medics and engineers
+* Added: Health regeneration if at 75% or more health
+
 v0.33
 * Bug Fix: Blackscreen error message
 
