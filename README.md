@@ -2,10 +2,10 @@
 
 ## Current version : 0.32
 v0.32
-*Modified: redeploy_manager.sqf 	
+* Modified: redeploy_manager.sqf 	
 *	player setCustomAimCoef 0.35 now 0.1
 *	player setUnitRecoilCoefficient 0.6 now 0.4
-*BUG: Blackscreen error upon death
+* BUG: Blackscreen error upon death
 
 v0.31
 * Fixed: Missing files for Mag Repack.
