@@ -201,8 +201,8 @@ Cell_recycleable_vehicles = [
 	
 	["CUP_O_UAZ_SPG9_CHDKZ"0,50,0],
 	["CUP_O_BRDM2_CHDKZ",0,50,0],
-	["CUP_O_UAZ_Open_CHDKZ"],
-	["CUP_O_UAZ_MG_CHDKZ"],
+	["CUP_O_UAZ_Open_CHDKZ",0,20,0],
+	["CUP_O_UAZ_MG_CHDKZ",0,35,0],
 	
 	["CUP_O_UAZ_MG_RU",0,35,0],
 	["CUP_O_GAZ_Vodnik_PK_RU",0,50,0],
