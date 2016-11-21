@@ -1,6 +1,14 @@
 # Customized version of the ARMA 3 mission Liberation.
 
-## Current version : 0.3
+## Current version : 0.31
+v0.31
+Fixed: Missing files for Mag Repack.
+Fixed: Missing files in scripts/server
+Modified: Description.ext
+Modified: classnames_extension.sqf
+Modified: init.sqf to add Zeus NVG+Thermals
+ADDED: FIR F-15 Support
+
 v0.3
 ADDED:
 * OPFOR Pacfic variants added to recyclables.
