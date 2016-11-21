@@ -1,6 +1,6 @@
 # Customized version of the ARMA 3 mission Liberation.
 
-## Current version : 0.32
+## Current version : 0.33
 v0.33
 * Bug Fix: Blackscreen error message. GREUH_revive_camera.sqf
 
