@@ -3,6 +3,7 @@
 ## Current version : 0.32
 v0.33
 * Bug Fix: Blackscreen error message. GREUH_revive_camera.sqf
+
 v0.32
 * Modified: redeploy_manager.sqf 	
 * -player setCustomAimCoef 0.35 changed to 0.1
