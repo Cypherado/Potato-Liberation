@@ -1,10 +1,12 @@
 # Customized version of the ARMA 3 mission Liberation.
 
 ## Current version : 0.32
+v0.33
+* Bug Fix: Blackscreen error message. GREUH_revive_camera.sqf
 v0.32
 * Modified: redeploy_manager.sqf 	
-*	player setCustomAimCoef 0.35 now 0.1
-*	player setUnitRecoilCoefficient 0.6 now 0.4
+* -player setCustomAimCoef 0.35 changed to 0.1
+* -player setUnitRecoilCoefficient 0.6 changed to 0.4
 * BUG: Blackscreen error upon death
 
 v0.31
