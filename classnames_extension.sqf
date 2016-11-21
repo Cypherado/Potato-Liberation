@@ -222,6 +222,7 @@ Cell_recycleable_vehicles = [
 	
 	// Civilian
 	["C_Offroad_02_unarmed_F",0,20,0]
+];
 
 // All the UAVs must be declared here, otherwise there shall be UAV controlling issues. Namely: you won't be able to control them.
 uavs = [
