@@ -40,6 +40,8 @@ while { true } do {
 	};
 	player setCustomAimCoef 0.1;
 	player setUnitRecoilCoefficient 0.4;
+	player setUnitTrait ["Medic",true];
+	player setUnitTrait ["Engineer",true];
 
 	_dialog = createDialog "liberation_deploy";
 	deploy = 0;
