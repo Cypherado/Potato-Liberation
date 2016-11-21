@@ -327,8 +327,7 @@ opfor_vehicles_low_intensity_extension = [
 	"CUP_O_GAZ_Vodnik_PK_RU",
 	"CUP_O_GAZ_Vodnik_AGS_RU",
 	"CUP_O_BMP2_RU",
-	"CUP_O_T72_RU",
-	"CUP_O_GAZ_Vodnik_BPPU_RU"        
+	"CUP_O_T72_RU"       
 ];
 
 // All the vehicles that can spawn as battlegroup members
