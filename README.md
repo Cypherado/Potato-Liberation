@@ -1,6 +1,12 @@
 # Customized version of the ARMA 3 mission Liberation.
 
-## Current version : 0.31
+## Current version : 0.32
+v0.32
+*Modified: redeploy_manager.sqf 	
+*	player setCustomAimCoef 0.35 now 0.1
+*	player setUnitRecoilCoefficient 0.6 now 0.4
+*BUG: Blackscreen error upon death
+
 v0.31
 * Fixed: Missing files for Mag Repack.
 * Fixed: Missing files in scripts/server
