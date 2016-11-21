@@ -76,13 +76,13 @@ light_vehicles_extension = [
 	["I_MRAP_03_gmg_F",0,20,3],
 	["fsf_fnk_hmg_ce",0,10,3],
 	["greuh_fnk_hmg_ce",0,10,3],
+	["greuh_fnk_hmg_dsrt",0,10,3],
 	["CUP_B_Mastiff_HMG_GB_D",0,15,5],
 	["CUP_B_HMMWV_Avenger_USMC",0,20,7],
 	["CUP_B_HMMWV_TOW_USA",0,15,3],
 	["CUP_B_HMMWV_Transport_USA",0,0,5],
 	["CUP_B_HMMWV_M2_GPK_ACR",0,10,3],
-	["CUP_B_HMMWV_Crows_M2_USA",0,15,5],
-	["greuh_fnk_hmg_dsrt",0,10,3]
+	["CUP_B_HMMWV_Crows_M2_USA",0,15,5]
 ];
 
 heavy_vehicles_overwrite = false;
@@ -126,7 +126,6 @@ air_vehicles_extension = [
 	["H_RAH66",0,200,30],
 	["RHS_AH64D_wd",0,400,50],
 	["FIR_F16C",0,100,30],
-	["FIR_F15E",0,200,50],
 	["JS_JC_FA18E",0,350,40],
 	["JS_JC_FA18F",0,350,40],
 	["sab_C130_CSP",0,0,30],
@@ -134,7 +133,9 @@ air_vehicles_extension = [
 	["usaf_f22",0,500,75],
 	["USAF_F35A",0,600,75],
 	["I_Plane_Fighter_03_AA_F",0,50,30],
-	["I_Plane_Fighter_03_CAS_F",0,100,30]
+	["I_Plane_Fighter_03_CAS_F",0,100,30],
+	["FIR_F15C",0,350,50],
+	["FIR_F15E",0,350,50]
 ];
 
 static_vehicles_overwrite = false;
@@ -145,7 +146,8 @@ static_vehicles_extension = [
 buildings_overwrite = false;
 buildings_extension = [
     ["Land_IRMaskingCover_01_F",0,0,0],
-    ["Land_LampAirport_F",0,0,0]
+    ["Land_LampAirport_F",0,0,0],
+	["FIR_Baseplate",0,1000,0]
 ];
 
 support_vehicles_overwrite = false;		// If you're going to overwrite this, make sure you have at least Arsenal_typename, Respawn_truck_typename, FOB_box_typename and FOB_truck_typename in there
@@ -386,7 +388,7 @@ civilians_extension = [
 // Civilian vehicles
 civilian_vehicles_overwrite = true;
 civilian_vehicles_extension = [
-"C_Offroad_01_repair_F","C_Offroad_02_unarmed_F","C_Kart_01_Red_F","C_Truck_02_box_F","C_Truck_02_transport_F","CUP_C_SUV_CIV","C_Offroad_02_unarmed_F","CUP_C_Ural_Civ_01","CUP_C_Golf4_red_Civ"];
+"C_Offroad_01_repair_F","C_Offroad_02_unarmed_F","C_Kart_01_Red_F","C_Truck_02_box_F","C_Truck_02_transport_F","CUP_C_SUV_CIV","C_Offroad_02_unarmed_F","CUP_C_Ural_Civ_01","CUP_C_Golf4_red_Civ","CUP_C_LR_Transport_CTK","CUP_C_Octavia_CIV","CUP_C_Golf4_random_Civ"];
 
 // Everything the AI troups should be able to resupply from
 ai_resupply_sources_extension = [

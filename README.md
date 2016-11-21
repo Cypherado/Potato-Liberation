@@ -1,5 +1,6 @@
 # Customized version of the ARMA 3 mission Liberation.
 
+<<<<<<< HEAD
 ## Current version : 0.34
 
 V0.34
@@ -22,6 +23,16 @@ v0.31
 * Modified: classnames_extension.sqf
 * Modified: init.sqf to add Zeus NVG+Thermals
 * ADDED: FIR F-15 Support
+=======
+## Current version : 0.31
+v0.31
+Fixed: Missing files for Mag Repack.
+Fixed: Missing files in scripts/server
+Modified: Description.ext
+Modified: classnames_extension.sqf
+Modified: init.sqf to add Zeus NVG+Thermals
+ADDED: FIR F-15 Support
+>>>>>>> origin/master
 
 v0.3
 ADDED:
