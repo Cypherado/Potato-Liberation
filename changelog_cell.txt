@@ -8,8 +8,9 @@ CUP variants added to recycleables
 
 CHANGED:
 AI Skill lowered (init.sqf)
-
-
+HALO Drop altitude is now 2000m instead of 4000m
+Removed black "You are wounded" screen on death.
+Rebalanced the ammo values for recycleables.
 
 v0.2
 ADDED: 
