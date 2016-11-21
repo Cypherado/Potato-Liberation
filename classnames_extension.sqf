@@ -199,7 +199,7 @@ Cell_recycleable_vehicles = [
 	["CUP_O_Ural_Refuel_RU",0,50,0],
 	["CUP_O_Ural_Reammo_RU",0,50,0],
 	
-	["CUP_O_UAZ_SPG9_CHDKZ"0,50,0],
+	["CUP_O_UAZ_SPG9_CHDKZ",0,50,0],
 	["CUP_O_BRDM2_CHDKZ",0,50,0],
 	["CUP_O_UAZ_Open_CHDKZ",0,20,0],
 	["CUP_O_UAZ_MG_CHDKZ",0,35,0],
@@ -325,7 +325,7 @@ opfor_vehicles_low_intensity_overwrite = true;
 opfor_vehicles_low_intensity_extension = [
         "CUP_O_UAZ_MG_RU",
 	"CUP_O_GAZ_Vodnik_PK_RU",
-	"CUP_O_GAZ_Vodnik_AGS_RU ",
+	"CUP_O_GAZ_Vodnik_AGS_RU",
 	"CUP_O_BMP2_RU",
 	"CUP_O_T72_RU",
 	"CUP_O_GAZ_Vodnik_BPPU_RU"        
@@ -348,9 +348,9 @@ opfor_battlegroup_vehicles_low_intensity_overwrite = true;
 opfor_battlegroup_vehicles_low_intensity_extension = [
         "CUP_O_UAZ_MG_RU",
 	"CUP_O_GAZ_Vodnik_PK_RU",
-	"CUP_O_GAZ_Vodnik_AGS_RU ",
+	"CUP_O_GAZ_Vodnik_AGS_RU",
 	"CUP_O_BMP2_RU",
-	"CUP_O_T72_RU",
+	"CUP_O_T72_RU"
 ];
 
 // All the vehicles that can spawn as battlegroup members (see above) and also hold 8 soldiers as passengers.
