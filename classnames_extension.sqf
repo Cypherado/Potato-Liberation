@@ -177,13 +177,13 @@ Cell_recycleable_vehicles = [
 	["O_APC_Tracked_02_AA_F",0,40,0],
 	["O_MBT_02_cannon_F",0,400,0],
 	["O_MBT_02_arty_F",0,500,0],
-	["O_Heli_Light_02_F",0,30,0],
-	["O_Heli_Light_02_unarmed_F",0,0,0],
+	["O_Heli_Light_02_F",0,70,0],
+	["O_Heli_Light_02_unarmed_F",0,70,0],
 	["O_Heli_Attack_02_F",0,250,0],
 	["O_Heli_Attack_02_black_F",0,250,0],
 	["O_Plane_CAS_02_F",0,400,0],
 	
-	// OPFOR APEX Variants... fucking APEX.
+	// OPFOR APEX Variants
 	["O_T_MRAP_02_ghex_F",0,20,0],
 	["O_T_MRAP_02_hmg_ghex_F",0,35,0],
 	["O_T_MRAP_02_gmg_ghex_F",0,35,0],
