@@ -14,4 +14,6 @@ AI Skill lowered (init.sqf)
 
 This version has compatibility for CUP Units and you can recycle captured OPFOR vehicles.
 
+testing commit
+
 
