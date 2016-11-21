@@ -2,7 +2,7 @@
 
 ## Current version : 0.33
 v0.33
-* Bug Fix: Blackscreen error message.
+* Bug Fix: Blackscreen error message
 
 v0.32
 * Modified: redeploy_manager.sqf 	
