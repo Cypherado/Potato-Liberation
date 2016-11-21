@@ -1,0 +1,28 @@
+Viva la Potato Liberation
+
+v0.3
+ADDED:
+OPFOR Pacfic variants added to recyclables.
+Lusine: Replaced OPFOR vehicles with CUP variants
+CUP variants added to recycleables
+
+CHANGED:
+AI Skill lowered (init.sqf)
+
+
+
+v0.2
+ADDED: 
+Mag Repack added (Ctrl R to activate) 
+Custom Potato loading screen added (why not)
+
+CHANGED:
+A couple more vehicles added for recycling 
+Civ Penalty increased to 10 
+Default revive parameter changed
+
+v0.1 
+CHANGED:
+Civ Penalty reduced to 5 from 20 (gameplay constants.sqf) 
+Zeus can now be Zeus (ZEUS_SYNCH.SQF) 
+OPFOR vehicles able to be scrapped for rsc (classnames.sqf)
