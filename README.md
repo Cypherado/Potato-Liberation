@@ -2,7 +2,7 @@
 
 ## Current version : 0.33
 v0.33
-* Bug Fix: Blackscreen error message. GREUH_revive_camera.sqf
+* Bug Fix: Blackscreen error message.
 
 v0.32
 * Modified: redeploy_manager.sqf 	
