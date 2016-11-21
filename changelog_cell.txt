@@ -1,5 +1,15 @@
 Viva la Potato Liberation
 
+v0.31
+Fixed: Missing files for Mag Repack.
+Fixed: Missing files in scripts/server
+Modified: Description.ext
+Modified: classnames_extension.sqf
+Modified: init.sqf to add Zeus NVG+Thermals
+ADDED: FIR F-15 Support
+TODO: Need to add F15 and/or F16 to elite units when ready.
+*!NOTE!*: SP GAME SAVE CORRUPTED WHILE TESTING. SERVER UNAFFECTED.
+
 v0.3
 ADDED:
 OPFOR Pacfic variants added to recyclables.
