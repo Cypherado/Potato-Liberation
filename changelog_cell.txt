@@ -1,5 +1,29 @@
 Viva la Potato Liberation
 
+v0.34
+Added: All units are medics and engineers
+Added: Added: Health regeneration if at 75% or more health
+	-Note: This is a workaround for FAKs not healing 100%. Once the FAK heals to 75%, slow regeneration will begin.
+
+v0.33
+Bug Fix: Blackscreen error message. GREUH_revive_camera.sqf
+
+v0.32
+Modified: redeploy_manager.sqf 	
+	player setCustomAimCoef 0.35 now 0.1
+	player setUnitRecoilCoefficient 0.6 now 0.4
+BUG: Blackscreen error upon death
+
+v0.31
+Fixed: Missing files for Mag Repack.
+Fixed: Missing files in scripts/server
+Modified: Description.ext
+Modified: classnames_extension.sqf
+Modified: init.sqf to add Zeus NVG+Thermals
+ADDED: FIR F-15 Support
+TODO: Need to add F15 and/or F16 to elite units when ready.
+*!NOTE!*: SP GAME SAVE CORRUPTED WHILE TESTING. SERVER UNAFFECTED.
+
 v0.3
 ADDED:
 OPFOR Pacfic variants added to recyclables.

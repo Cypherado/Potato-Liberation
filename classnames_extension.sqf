@@ -76,13 +76,13 @@ light_vehicles_extension = [
 	["I_MRAP_03_gmg_F",0,20,3],
 	["fsf_fnk_hmg_ce",0,10,3],
 	["greuh_fnk_hmg_ce",0,10,3],
+	["greuh_fnk_hmg_dsrt",0,10,3],
 	["CUP_B_Mastiff_HMG_GB_D",0,15,5],
 	["CUP_B_HMMWV_Avenger_USMC",0,20,7],
 	["CUP_B_HMMWV_TOW_USA",0,15,3],
 	["CUP_B_HMMWV_Transport_USA",0,0,5],
 	["CUP_B_HMMWV_M2_GPK_ACR",0,10,3],
-	["CUP_B_HMMWV_Crows_M2_USA",0,15,5],
-	["greuh_fnk_hmg_dsrt",0,10,3]
+	["CUP_B_HMMWV_Crows_M2_USA",0,15,5]
 ];
 
 heavy_vehicles_overwrite = false;
@@ -126,7 +126,6 @@ air_vehicles_extension = [
 	["H_RAH66",0,200,30],
 	["RHS_AH64D_wd",0,400,50],
 	["FIR_F16C",0,100,30],
-	["FIR_F15E",0,200,50],
 	["JS_JC_FA18E",0,350,40],
 	["JS_JC_FA18F",0,350,40],
 	["sab_C130_CSP",0,0,30],
@@ -134,7 +133,9 @@ air_vehicles_extension = [
 	["usaf_f22",0,500,75],
 	["USAF_F35A",0,600,75],
 	["I_Plane_Fighter_03_AA_F",0,50,30],
-	["I_Plane_Fighter_03_CAS_F",0,100,30]
+	["I_Plane_Fighter_03_CAS_F",0,100,30],
+	["FIR_F15C",0,350,50],
+	["FIR_F15E",0,350,50]
 ];
 
 static_vehicles_overwrite = false;
@@ -145,7 +146,8 @@ static_vehicles_extension = [
 buildings_overwrite = false;
 buildings_extension = [
     ["Land_IRMaskingCover_01_F",0,0,0],
-    ["Land_LampAirport_F",0,0,0]
+    ["Land_LampAirport_F",0,0,0],
+	["FIR_Baseplate",0,1000,0]
 ];
 
 support_vehicles_overwrite = false;		// If you're going to overwrite this, make sure you have at least Arsenal_typename, Respawn_truck_typename, FOB_box_typename and FOB_truck_typename in there
@@ -170,6 +172,7 @@ Cell_recycleable_vehicles = [
 	["O_Truck_03_covered_F",0,35,0],
 	["O_Truck_03_ammo_F",0,50,0],
 	["O_Truck_03_fuel_F",0,50,0],
+	["O_T_MRAP_02_F",0,20,0],
 	["O_MRAP_02_hmg_F",0,35,0],
 	["O_MRAP_02_gmg_F",0,35,0],
 	["O_APC_Wheeled_02_rcws_F",0,50,0],
@@ -177,7 +180,7 @@ Cell_recycleable_vehicles = [
 	["O_APC_Tracked_02_AA_F",0,40,0],
 	["O_MBT_02_cannon_F",0,400,0],
 	["O_MBT_02_arty_F",0,500,0],
-	["O_Heli_Light_02_F",0,70,0],
+	["O_Heli_Light_02_F",0,140,0],
 	["O_Heli_Light_02_unarmed_F",0,70,0],
 	["O_Heli_Attack_02_F",0,250,0],
 	["O_Heli_Attack_02_black_F",0,250,0],
@@ -187,11 +190,11 @@ Cell_recycleable_vehicles = [
 	["O_T_MRAP_02_ghex_F",0,20,0],
 	["O_T_MRAP_02_hmg_ghex_F",0,35,0],
 	["O_T_MRAP_02_gmg_ghex_F",0,35,0],
-	["O_T_MBT_02_cannon_ghex_F",0,300,0],
-	["O_T_MBT_02_arty_ghex_F",0,300,0],
 	["O_T_APC_Tracked_02_cannon_ghex_F",0,125,0],
-	["O_G_Offroad_01_armed_F",0,25,0],
-	["I_G_Offroad_01_armed_F",0,25,0],
+	["O_T_MBT_02_cannon_ghex_F",0,400,0],
+	["O_T_MBT_02_arty_ghex_F",0,500,0],
+	["O_G_Offroad_01_armed_F",0,30,0],
+	["I_G_Offroad_01_armed_F",0,30,0],
 	
 	// CUP OPFOR Compatiblity
 	["CUP_O_Ural_Repair_RU",0,50,0],
@@ -199,14 +202,14 @@ Cell_recycleable_vehicles = [
 	["CUP_O_Ural_Refuel_RU",0,50,0],
 	["CUP_O_Ural_Reammo_RU",0,50,0],
 	
-	["CUP_O_UAZ_SPG9_CHDKZ"0,50,0],
+	["CUP_O_UAZ_SPG9_CHDKZ",0,50,0],
 	["CUP_O_BRDM2_CHDKZ",0,50,0],
-	["CUP_O_UAZ_Open_CHDKZ"],
-	["CUP_O_UAZ_MG_CHDKZ"],
+	["CUP_O_UAZ_Open_CHDKZ",0,20,0],
+	["CUP_O_UAZ_MG_CHDKZ",0,35,0],
 	
 	["CUP_O_UAZ_MG_RU",0,35,0],
 	["CUP_O_GAZ_Vodnik_PK_RU",0,50,0],
-	["CUP_O_GAZ_Vodnik_AGS_RU",0,65,0],
+	["CUP_O_GAZ_Vodnik_AGS_RU",0,75,0],
 	["CUP_O_GAZ_Vodnik_BPPU_RU",0,100,0],
 	["CUP_O_BRDM2_RUS",0,125,0],
 	["CUP_O_BMP2_RU",0,125,0],
@@ -222,6 +225,7 @@ Cell_recycleable_vehicles = [
 	
 	// Civilian
 	["C_Offroad_02_unarmed_F",0,20,0]
+];
 
 // All the UAVs must be declared here, otherwise there shall be UAV controlling issues. Namely: you won't be able to control them.
 uavs = [
@@ -324,10 +328,9 @@ opfor_vehicles_low_intensity_overwrite = true;
 opfor_vehicles_low_intensity_extension = [
         "CUP_O_UAZ_MG_RU",
 	"CUP_O_GAZ_Vodnik_PK_RU",
-	"CUP_O_GAZ_Vodnik_AGS_RU ",
+	"CUP_O_GAZ_Vodnik_AGS_RU",
 	"CUP_O_BMP2_RU",
-	"CUP_O_T72_RU",
-	"CUP_O_GAZ_Vodnik_BPPU_RU"        
+	"CUP_O_T72_RU"       
 ];
 
 // All the vehicles that can spawn as battlegroup members
@@ -347,9 +350,9 @@ opfor_battlegroup_vehicles_low_intensity_overwrite = true;
 opfor_battlegroup_vehicles_low_intensity_extension = [
         "CUP_O_UAZ_MG_RU",
 	"CUP_O_GAZ_Vodnik_PK_RU",
-	"CUP_O_GAZ_Vodnik_AGS_RU ",
+	"CUP_O_GAZ_Vodnik_AGS_RU",
 	"CUP_O_BMP2_RU",
-	"CUP_O_T72_RU",
+	"CUP_O_T72_RU"
 ];
 
 // All the vehicles that can spawn as battlegroup members (see above) and also hold 8 soldiers as passengers.
@@ -385,7 +388,7 @@ civilians_extension = [
 // Civilian vehicles
 civilian_vehicles_overwrite = true;
 civilian_vehicles_extension = [
-"C_Offroad_01_repair_F","C_Offroad_02_unarmed_F","C_Kart_01_Red_F","C_Truck_02_box_F","C_Truck_02_transport_F","CUP_C_SUV_CIV","C_Offroad_02_unarmed_F","CUP_C_Ural_Civ_01","CUP_C_Golf4_red_Civ"];
+"C_Offroad_01_repair_F","C_Offroad_02_unarmed_F","C_Kart_01_Red_F","C_Truck_02_box_F","C_Truck_02_transport_F","CUP_C_SUV_CIV","C_Offroad_02_unarmed_F","CUP_C_Ural_Civ_01","CUP_C_Golf4_red_Civ","CUP_C_LR_Transport_CTK","CUP_C_Octavia_CIV","CUP_C_Golf4_random_Civ"];
 
 // Everything the AI troups should be able to resupply from
 ai_resupply_sources_extension = [
