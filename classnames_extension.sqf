@@ -218,7 +218,7 @@ Cell_recycleable_vehicles = [
 	["CUP_O_Mi8_VIV_RU",0,200,0],
 	["CUP_O_MI6A_RU",0,200,0],
 	["CUP_O_Mi24_V_RU",0,350,0],
-	["CUP_O_Ka60_Grey_R	U",0,100,0],
+	["CUP_O_Ka60_Grey_RU",0,100,0],
 	
 	
 	// Civilian
