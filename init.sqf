@@ -8,6 +8,10 @@ enableSaving [ false, false ];
 [] call compileFinal preprocessFileLineNUmbers "classnames_extension.sqf";
 [] call compileFinal preprocessFileLineNUmbers "scripts\shared\classnames.sqf";
 
+[] execVM "earplugs.sqf";
+[] execVM "health_regen.sqf";
+
+
 if ( GRLIB_revive > 0 ) then {
 	[] execVM "FAR_revive\FAR_revive_init.sqf";
 };

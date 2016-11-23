@@ -134,8 +134,7 @@ air_vehicles_extension = [
 	["USAF_F35A",0,600,75],
 	["I_Plane_Fighter_03_AA_F",0,50,30],
 	["I_Plane_Fighter_03_CAS_F",0,100,30],
-	["FIR_F15C",0,350,50],
-	["FIR_F15E",0,350,50]
+	["FIR_F15E",0,1400,50]
 ];
 
 static_vehicles_overwrite = false;
@@ -146,8 +145,7 @@ static_vehicles_extension = [
 buildings_overwrite = false;
 buildings_extension = [
     ["Land_IRMaskingCover_01_F",0,0,0],
-    ["Land_LampAirport_F",0,0,0],
-	["FIR_Baseplate",0,1000,0]
+    ["Land_LampAirport_F",0,0,0]
 ];
 
 support_vehicles_overwrite = false;		// If you're going to overwrite this, make sure you have at least Arsenal_typename, Respawn_truck_typename, FOB_box_typename and FOB_truck_typename in there
@@ -172,6 +170,7 @@ Cell_recycleable_vehicles = [
 	["O_Truck_03_covered_F",0,35,0],
 	["O_Truck_03_ammo_F",0,50,0],
 	["O_Truck_03_fuel_F",0,50,0],
+	["O_T_MRAP_02_F",0,20,0],
 	["O_MRAP_02_hmg_F",0,35,0],
 	["O_MRAP_02_gmg_F",0,35,0],
 	["O_APC_Wheeled_02_rcws_F",0,50,0],
@@ -179,7 +178,7 @@ Cell_recycleable_vehicles = [
 	["O_APC_Tracked_02_AA_F",0,40,0],
 	["O_MBT_02_cannon_F",0,400,0],
 	["O_MBT_02_arty_F",0,500,0],
-	["O_Heli_Light_02_F",0,70,0],
+	["O_Heli_Light_02_F",0,140,0],
 	["O_Heli_Light_02_unarmed_F",0,70,0],
 	["O_Heli_Attack_02_F",0,250,0],
 	["O_Heli_Attack_02_black_F",0,250,0],
@@ -189,11 +188,11 @@ Cell_recycleable_vehicles = [
 	["O_T_MRAP_02_ghex_F",0,20,0],
 	["O_T_MRAP_02_hmg_ghex_F",0,35,0],
 	["O_T_MRAP_02_gmg_ghex_F",0,35,0],
-	["O_T_MBT_02_cannon_ghex_F",0,300,0],
-	["O_T_MBT_02_arty_ghex_F",0,300,0],
 	["O_T_APC_Tracked_02_cannon_ghex_F",0,125,0],
-	["O_G_Offroad_01_armed_F",0,25,0],
-	["I_G_Offroad_01_armed_F",0,25,0],
+	["O_T_MBT_02_cannon_ghex_F",0,400,0],
+	["O_T_MBT_02_arty_ghex_F",0,500,0],
+	["O_G_Offroad_01_armed_F",0,30,0],
+	["I_G_Offroad_01_armed_F",0,30,0],
 	
 	// CUP OPFOR Compatiblity
 	["CUP_O_Ural_Repair_RU",0,50,0],
@@ -208,7 +207,7 @@ Cell_recycleable_vehicles = [
 	
 	["CUP_O_UAZ_MG_RU",0,35,0],
 	["CUP_O_GAZ_Vodnik_PK_RU",0,50,0],
-	["CUP_O_GAZ_Vodnik_AGS_RU",0,65,0],
+	["CUP_O_GAZ_Vodnik_AGS_RU",0,75,0],
 	["CUP_O_GAZ_Vodnik_BPPU_RU",0,100,0],
 	["CUP_O_BRDM2_RUS",0,125,0],
 	["CUP_O_BMP2_RU",0,125,0],
