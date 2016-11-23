@@ -134,8 +134,7 @@ air_vehicles_extension = [
 	["USAF_F35A",0,600,75],
 	["I_Plane_Fighter_03_AA_F",0,50,30],
 	["I_Plane_Fighter_03_CAS_F",0,100,30],
-	["FIR_F15C",0,350,50],
-	["FIR_F15E",0,350,50]
+	["FIR_F15E",0,1400,50]
 ];
 
 static_vehicles_overwrite = false;
@@ -146,8 +145,7 @@ static_vehicles_extension = [
 buildings_overwrite = false;
 buildings_extension = [
     ["Land_IRMaskingCover_01_F",0,0,0],
-    ["Land_LampAirport_F",0,0,0],
-	["FIR_Baseplate",0,1000,0]
+    ["Land_LampAirport_F",0,0,0]
 ];
 
 support_vehicles_overwrite = false;		// If you're going to overwrite this, make sure you have at least Arsenal_typename, Respawn_truck_typename, FOB_box_typename and FOB_truck_typename in there
@@ -220,7 +218,7 @@ Cell_recycleable_vehicles = [
 	["CUP_O_Mi8_VIV_RU",0,200,0],
 	["CUP_O_MI6A_RU",0,200,0],
 	["CUP_O_Mi24_V_RU",0,350,0],
-	["CUP_O_Ka60_Grey_R	U",0,100,0],
+	["CUP_O_Ka60_Grey_RU",0,100,0],
 	
 	
 	// Civilian

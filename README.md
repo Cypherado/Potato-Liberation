@@ -1,6 +1,14 @@
 # Customized version of the ARMA 3 mission Liberation.
 
-## Current version : 0.34
+## Current version : 0.35
+
+V0.35
+* Added: All units are medics and engineers
+* Added: Health regeneration if at 75% or more health
+* Added: Earplugs are now available. Currently two known minor issues, check the issues page for details.
+* Modified: Rebalanced F-15E from 350 ammo to 1400 ammo.
+* Removed: F-15C
+* Modified: Health Regen script should now work properly
 
 V0.34
 * Added: All units are medics and engineers
