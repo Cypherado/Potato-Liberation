@@ -1,6 +1,6 @@
 # Customized version of the ARMA 3 mission Liberation.
 
-## Current version : 0.35
+## Current version : 1.2
 
 V1.2
 * Modified: Earplugs will now work dynamically with the selected vehicle volume in the Extended Options menu.
