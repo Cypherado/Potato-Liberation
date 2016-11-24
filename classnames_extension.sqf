@@ -33,56 +33,47 @@ pilot_classname = nil;					// Default "B_T_Pilot_F";
 // Useful for total conversions to RHS and such, without having to alter the original file.
 infantry_units_overwrite = true;
 infantry_units_extension = [
-["B_CTRG_Miller_F",8,8,0],
-["I_G_resistanceLeader_F",5,5,0],
-["I_G_Story_Protagonist_F",5,5,0],
-["B_T_Soldier_F",3,0,0],
-["B_T_Engineer_F",3,0,0],
-["B_T_Medic_F",3,0,0],
-["B_T_Soldier_AR_F",3,0,0],
-["B_T_soldier_M_F",3,0,0],
-["B_T_Soldier_SL_F",3,0,0],
-["B_T_Soldier_GL_F",3,0,0],
-["B_T_Soldier_AT_F",3,5,0],
-["B_T_Soldier_AA_F",3,5,0],
-["B_T_Diver_F",3,0,0],
-["B_T_Sniper_F",3,2,0],
-["B_T_Recon_Medic_F",3,2,0],
-["B_T_ghillie_tna_F",3,2,0],
-["B_T_Sniper_F",3,5,0],
-["B_T_Recon_M_F",3,5,0],
-["B_GEN_Commander_F",3,2,0],
-["B_GEN_Soldier_F",3,2,0],
-["B_CTRG_Soldier_M_tna_F",3,2,0],
-["B_CTRG_Soldier_Medic_tna_F",3,2,0],
-["B_CTRG_Soldier_JTAC_tna_F",3,2,0],
-["B_CTRG_Soldier_TL_tna_F",3,2,0],
-["B_CTRG_Soldier_Exp_tna_F",3,2,0],
-["B_CTRG_Soldier_LAT_tna_F",3,5,0]
+["rhsusf_army_ocp_rifleman",3,0,0],
+["rhsusf_army_ocp_engineer",3,0,0],
+["rhsusf_army_ocp_medic",3,0,0],
+["rhsusf_army_ocp_autorifleman",3,0,0],
+["rhsusf_army_ocp_machinegunner",3,0,0],
+["rhsusf_army_ocp_squadleader",3,0,0],
+["rhsusf_army_ocp_grenadier",3,0,0],
+["rhsusf_army_ocp_riflemanat",3,1,0],
+["rhsusf_army_ocp_javelin",3,5,0],
+["rhsusf_army_ocp_aa",3,5,0],
+["rhsusf_army_ocp_sniper",3,2,0],
+["rhsusf_socom_marsoc_cso",3,2,0],
+["rhsusf_socom_marsoc_cso_light",3,2,0],
+["rhsusf_socom_marsoc_teamchief",3,2,0],
+["rhsusf_socom_marsoc_cso_grenadier",3,2,0],
+["rhsusf_socom_marsoc_jfo",3,2,0],
+["rhsusf_socom_marsoc_marksman",3,2,0],
+["rhsusf_socom_marsoc_spotter",3,2,0],
+["rhsusf_socom_marsoc_sniper",3,5,0]
 ];
 
 light_vehicles_overwrite = false;
 light_vehicles_extension = [
         ["B_T_LSV_01_unarmed_F",0,0,2],
         ["B_T_LSV_01_armed_F",0,10,3],
-        ["I_C_Offroad_02_unarmed_F",0,0,3],
-        ["C_Offroad_02_unarmed_F",0,0,3],
-	["rhsusf_m998_w_4dr",0,0,2],
-	["rhsusf_rg33_m2_d",0,10,3],
-	["fsf_fnk_norm_ce",0,0,3],
-	["greuh_fnk_norm_ce",0,0,3],
-	["I_MRAP_03_F",0,0,3],
-	["I_MRAP_03_hmg_F",0,10,3],
-	["I_MRAP_03_gmg_F",0,20,3],
 	["fsf_fnk_hmg_ce",0,10,3],
+	["rhsusf_mkvsoc",0,50,10],
 	["greuh_fnk_hmg_ce",0,10,3],
 	["greuh_fnk_hmg_dsrt",0,10,3],
 	["CUP_B_Mastiff_HMG_GB_D",0,15,5],
 	["CUP_B_HMMWV_Avenger_USMC",0,20,7],
 	["CUP_B_HMMWV_TOW_USA",0,15,3],
-	["CUP_B_HMMWV_Transport_USA",0,0,5],
-	["CUP_B_HMMWV_M2_GPK_ACR",0,10,3],
-	["CUP_B_HMMWV_Crows_M2_USA",0,15,5]
+	["rhsusf_m998_d_4dr",0,0,5],
+	["rhsusf_m1025_d_m2",0,10,3],
+	["rhsusf_m1025_d_Mk19",0,10,3],
+	["rhsusf_M1117_D",0,10,3],
+	["rhsusf_rg33_m2_d",0,10,3],
+	["rhsusf_m113d_usarmy_M240",0,10,3],
+	["rhsusf_M1083A1P2_B_d_open_fmtv_usarmy",0,10,3],
+	["rhsusf_M977A4_REPAIR_BKIT_usarmy_d",5,0,0],
+	["rhsusf_M977A4_AMMO_BKIT_usarmy_d",5,0,0]
 ];
 
 heavy_vehicles_overwrite = false;
@@ -92,16 +83,16 @@ heavy_vehicles_extension = [
 	["I_APC_tracked_03_cannon_F",0,40,15],
 	["greuh_fv510_wdld",0,40,15],
 	["greuh_fv510_dsrt",0,40,15],
-	["RHS_M2A3_BUSKIII_wd",0,55,15],
 	["Steve_MBT_Kuma",0,100,25],
 	["I_MBT_03_cannon_F",0,100,25],
-	["rhsusf_m1a2sep1tuskiid_usarmy",0,100,25],
 	["CUP_B_M1126_ICV_M2_Desert",0,20,5],
 	["CUP_B_FV510_GB_D_SLAT",0,45,15],
 	["CUP_B_M163_USA",0,40,10],
-	["CUP_B_M6LineBacker_USA_D",0,55,15],
-	["CUP_B_M2A3Bradley_USA_D",0,55,15],
-	["CUP_B_M1A2_TUSK_MG_DES_US_Army",0,100,25],
+	["RHS_M6",0,55,15],
+	["RHS_M2A3_BUSKIII",0,55,15],
+	["rhsusf_m1a1aim_tuski_d",0,100,25],
+	["rhsusf_m1a2sep1tuskiid_usarmy",0,100,25],
+	["rhsusf_m109d_usarmy",0,750,50],
 	["Burnes_FV4034_01",0,250,40]
 ];
 
@@ -118,14 +109,10 @@ air_vehicles_extension = [
 	["I_Heli_light_03_unarmed_F",0,0,12],
 	["I_Heli_light_03_F",0,50,12],
 	["JNS_Skycrane_BLU_Black",0,0,18],
-	["RHS_CH_47F",0,20,20],
 	["greuh_eh101_gr",0,0,25],
 	["I_Heli_Transport_02_F",0,0,25],
 	["MV22",0,0,25],
-	["RHS_AH1Z_wd_GS",0,175,30],
 	["H_RAH66",0,200,30],
-	["RHS_AH64D_wd",0,400,50],
-	["FIR_F16C",0,100,30],
 	["JS_JC_FA18E",0,350,40],
 	["JS_JC_FA18F",0,350,40],
 	["sab_C130_CSP",0,0,30],
@@ -134,6 +121,17 @@ air_vehicles_extension = [
 	["USAF_F35A",0,600,75],
 	["I_Plane_Fighter_03_AA_F",0,50,30],
 	["I_Plane_Fighter_03_CAS_F",0,100,30],
+	["RHS_MELB_AH6M_H",0,50,20],
+	["RHS_MELB_AH6M_L",0,50,20],
+	["RHS_MELB_AH6M_M",0,50,20],
+	["RHS_AH64D",0,50,20],
+	["RHS_AH1Z",0,50,20],
+	["RHS_UH1Y_d_GS",0,50,20],
+	["RHS_CH_47F",0,20,20],
+	["RHS_UH60M_d",0,20,12],
+	["rhsusf_CH53E_USMC_D",0,20,20],
+	["RHS_UH1Y_UNARMED_d",0,20,12],
+	["bwi_a3_at6b",0,300,50],
 	["FIR_F15E",0,1400,50]
 ];
 
@@ -218,9 +216,28 @@ Cell_recycleable_vehicles = [
 	["CUP_O_Mi8_VIV_RU",0,200,0],
 	["CUP_O_MI6A_RU",0,200,0],
 	["CUP_O_Mi24_V_RU",0,350,0],
-	["CUP_O_Ka60_Grey_R	U",0,100,0],
+	["CUP_O_Ka60_Grey_RU",0,100,0],
 	
-	
+	//RHS Compatibility OpFor
+	["rhs_t72ba_tv",0,400,0],
+	["rhs_bmp3mera_msv",0,150,0],
+	["rhs_bmp2k_msv",0,100,0],
+	["rhs_zsu234_aa",0,150,0],
+	["rhs_t90a_tv",0,500,0],
+	["rhs_t80um",0,500,0],
+	["rhs_bmd4m_vdv",0,350,0],
+	["rhs_tigr_sts_3camo_msv",0,75,0],
+	["rhs_gaz66_zu23_msv",0,50,0],
+	["rhs_bmd1k",0,100,0],
+	["RHS_Ural_Open_VMF_01",0,50,0],
+	["RHS_Ural_VV_01",0,50,0],
+	["RHS_Ural_Fuel_VMF_01",0,50,0],
+	["rhs_bmp2k_vv",0,100,0],
+	["RHS_Mi24V_vvs",0,500,0],
+	["RHS_Mi8MTV3_UPK23_vdv",0,500,0],
+	["RHS_Ka52_UPK23_vvs",0,500,0],
+	["RHS_Mi24V_UPK23_vdv",0,500,0],
+		
 	// Civilian
 	["C_Offroad_02_unarmed_F",0,20,0]
 ];
@@ -232,27 +249,27 @@ uavs = [
 
 // Pre-made squads for the commander build menu. These shouldn't exceed 10 members.
 // Light infantry squad
-blufor_squad_inf_light = ["B_T_Soldier_TL_F","B_T_Soldier_AR_F","B_T_Soldier_GL_F","B_T_Soldier_LAT_F"]; 
+blufor_squad_inf_light = ["rhsusf_army_ocp_teamleader","rhsusf_army_ocp_autorifleman","rhsusf_army_ocp_grenadier","rhsusf_army_ocp_riflemanat"]; 
 
 
 // Heavy infantry squad
-blufor_squad_inf = ["B_T_Soldier_SL_F","B_T_Soldier_F","B_T_Soldier_LAT_F","B_T_soldier_M_F","B_T_Soldier_AR_F","B_T_Soldier_A_F","B_T_Medic_F"];
+blufor_squad_inf = ["rhsusf_army_ocp_squadleader","rhsusf_army_ocp_autoriflemana","rhsusf_army_ocp_riflemanat","rhsusf_army_ocp_machinegunner","rhsusf_army_ocp_machinegunnera","rhsusf_army_ocp_autorifleman","rhsusf_army_ocp_medic"];
 
 
 // AT specialists squad
-blufor_squad_at = ["B_T_Soldier_TL_F","B_T_Soldier_AT_F","B_T_Soldier_AT_F","B_T_Soldier_AAT_F"];
+blufor_squad_at = ["rhsusf_army_ocp_teamleader","rhsusf_army_ocp_riflemanat","rhsusf_army_ocp_javelin","rhsusf_army_ocp_javelin"];
 
 
 // AA specialists squad
-blufor_squad_aa = ["B_T_Soldier_TL_F","B_T_Soldier_AA_F","B_T_Soldier_AA_F","B_T_Soldier_AAA_F"];
+blufor_squad_aa = ["rhsusf_army_ocp_teamleader","rhsusf_army_ocp_aa","rhsusf_army_ocp_aa","rhsusf_army_ocp_aa"];
 
 
 // Force recon squad
-blufor_squad_recon = ["B_T_Recon_TL_F","B_T_Recon_TL_F","B_T_Recon_Medic_F","B_T_Recon_LAT_F","B_T_Recon_JTAC_F","B_T_Recon_Exp_F"];
+blufor_squad_recon = ["rhsusf_usmc_recon_marpat_d_officer","rhsusf_usmc_recon_marpat_d_teamleader","rhsusf_usmc_recon_marpat_d_rifleman","rhsusf_usmc_recon_marpat_d_riflemanat","rhsusf_usmc_recon_marpat_d_marksman","rhsusf_usmc_recon_marpat_d_autorifleman"];
 
 
 // Paratroopers squad
-blufor_squad_para = ["B_T_Soldier_PG_F","B_T_Soldier_PG_F","B_T_Soldier_PG_F","B_T_Soldier_PG_F"];
+blufor_squad_para = ["rhsusf_socom_marsoc_cso_light","rhsusf_socom_marsoc_cso_grenadier","rhsusf_socom_marsoc_sarc","rhsusf_socom_marsoc_cso_cqb"];
 
 
 
@@ -264,30 +281,30 @@ blufor_squad_para = ["B_T_Soldier_PG_F","B_T_Soldier_PG_F","B_T_Soldier_PG_F","B
 // *** BADDIES ***
 
 // All OPFOR infantry. Defining a value here will replace the default value from the original mission.
-opfor_sentry = "CUP_O_RU_Soldier_GL_EMR";
-opfor_rifleman = "CUP_O_RU_Soldier_EMR";
-opfor_grenadier = "CUP_O_RU_Soldier_GL_EMR";
-opfor_squad_leader = "CUP_O_RU_Soldier_SL_EMR";
-opfor_team_leader = "CUP_O_RU_Soldier_TL_EMR";
-opfor_marksman = "CUP_O_RU_Soldier_Marksman_EMR";
-opfor_machinegunner = "CUP_O_RU_Soldier_AR_EMR";
-opfor_heavygunner = "CUP_O_RU_Soldier_MG_EMR";
-opfor_medic = "CUP_O_RU_Medic_EMR";
-opfor_rpg = "CUP_O_RU_Soldier_AT_EMR";
-opfor_at = "CUP_O_RU_Soldier_HAT_EMR";
-opfor_aa = "CUP_O_RU_Soldier_AA_EMR";
-opfor_officer = "CUP_O_RU_Officer_EMR";
-opfor_sharpshooter = "CUP_O_RU_Spotter_EMR";
-opfor_sniper = "CUP_O_RU_Sniper_EMR";
-opfor_engineer = "CUP_O_RU_Engineer_EMR";
-opfor_paratrooper = "CUP_O_RUS_SpecOps_Scout";
+opfor_sentry = "rhs_msv_emr_grenadier";
+opfor_rifleman = "rhs_msv_emr_rifleman";
+opfor_grenadier = "rhs_msv_emr_grenadier";
+opfor_squad_leader = "rhs_msv_emr_sergeant";
+opfor_team_leader = "rhs_msv_emr_junior_sergeant";
+opfor_marksman = "rhs_msv_emr_marksman";
+opfor_machinegunner = "rhs_msv_emr_machinegunner";
+opfor_heavygunner = "rhs_msv_emr_arifleman";
+opfor_medic = "rhs_msv_emr_medic";
+opfor_rpg = "rhs_msv_emr_grenadier_rpg";
+opfor_at = "rhs_msv_emr_at";
+opfor_aa = "rhs_msv_emr_aa";
+opfor_officer = "rhs_msv_emr_officer_armored";
+opfor_sharpshooter = "rhs_msv_emr_efreitor";
+opfor_sniper = "rhs_msv_emr_marksman";
+opfor_engineer = "rhs_msv_emr_engineer";
+opfor_paratrooper = "rhs_vmf_recon_efreitor";
 
 // OPFOR Vehicles to be used in secondary objectives
-opfor_mrap = "CUP_O_BRDM2_RUS";
-opfor_mrap_armed = "CUP_O_UAZ_MG_RU";
+opfor_mrap = "rhs_bmp2k_vv";
+opfor_mrap_armed = "rhs_tigr_sts_3camo_msv";
 opfor_transport_helo = "CUP_O_Ural_Repair_RU";
-opfor_transport_truck = "CUP_O_Ural_Empty_RU";
-opfor_fuel_truck = "CUP_O_Ural_Refuel_RU";
+opfor_transport_truck = "RHS_Ural_VV_01";
+opfor_fuel_truck = "RHS_Ural_Fuel_VMF_01";
 opfor_ammo_truck = "CUP_O_Ural_Reammo_RU";
 opfor_fuel_container = nil;
 opfor_ammo_container = nil;
@@ -311,69 +328,70 @@ militia_vehicles_extension = [
 // All the vehicles that can spawn as sector defenders and patrols
 opfor_vehicles_overwrite = true;
 opfor_vehicles_extension = [
-        "CUP_O_GAZ_Vodnik_AGS_RU",
-	"CUP_O_BMP3_RU",
-	"CUP_O_BMP2_RU",
-	"CUP_O_T72_RU",
+        "rhs_t72ba_tv",
+	"rhs_bmp3mera_msv",
+	"rhs_bmp2k_msv",
+	"rhs_zsu234_aa",
 	"CUP_O_2S6M_RU",
-	"CUP_O_BTR90_RU",
-	"CUP_O_GAZ_Vodnik_BPPU_RU",
-	"CUP_O_T90_RU"
+	"rhs_t90a_tv",
+	"rhs_t80um",
+	"rhs_bmd4m_vdv"
 ];
 
 // Same with lighter choices to be used  when the alert level is low
 opfor_vehicles_low_intensity_overwrite = true;
 opfor_vehicles_low_intensity_extension = [
-        "CUP_O_UAZ_MG_RU",
-	"CUP_O_GAZ_Vodnik_PK_RU",
-	"CUP_O_GAZ_Vodnik_AGS_RU",
-	"CUP_O_BMP2_RU",
-	"CUP_O_T72_RU"       
+        "rhs_tigr_sts_3camo_msv",
+	"rhs_gaz66_zu23_msv",
+	"rhs_bmd1k",
+	"rhs_bmp2k_msv",
+	"rhs_t72ba_tv"       
 ];
 
 // All the vehicles that can spawn as battlegroup members
 opfor_battlegroup_vehicles_overwrite = true;
 opfor_battlegroup_vehicles_extension = [
-		"CUP_O_BMP3_RU",
-	"CUP_O_BMP2_RU",
-	"CUP_O_T72_RU",
+        "rhs_t72ba_tv",
+	"rhs_bmp3mera_msv",
+	"rhs_bmp2k_msv",
+	"rhs_zsu234_aa",
 	"CUP_O_2S6M_RU",
-	"CUP_O_BTR90_RU",
-	"CUP_O_GAZ_Vodnik_BPPU_RU",
-	"CUP_O_T90_RU"
+	"rhs_t90a_tv",
+	"rhs_t80um",
+	"rhs_bmd4m_vdv"
 ];
 
 // Same with lighter choices to be used  when the alert level is low
 opfor_battlegroup_vehicles_low_intensity_overwrite = true;
 opfor_battlegroup_vehicles_low_intensity_extension = [
-        "CUP_O_UAZ_MG_RU",
-	"CUP_O_GAZ_Vodnik_PK_RU",
-	"CUP_O_GAZ_Vodnik_AGS_RU",
-	"CUP_O_BMP2_RU",
-	"CUP_O_T72_RU"
+        "rhs_tigr_sts_3camo_msv",
+	"rhs_gaz66_zu23_msv",
+	"rhs_bmd1k",
+	"rhs_bmp2k_msv",
+	"rhs_t72ba_tv" 
 ];
 
 // All the vehicles that can spawn as battlegroup members (see above) and also hold 8 soldiers as passengers.
 // If something in here can't hold all 8 soldiers then buggy behaviours may occur
 opfor_troup_transports_overwrite = true;
 opfor_troup_transports_extension = [
-        "CUP_O_Ural_Empty_RU",
-	"CUP_O_Ural_RU"
+        "RHS_Ural_Open_VMF_01",
+	"RHS_Ural_VV_01"
 ];
 
 // Battlegroup members that will need to spawn in flight. Should be only helos but, who knows
 opfor_choppers_overwrite = true;
 opfor_choppers_extension = [
-        "CUP_O_Mi8_VIV_RU",
-	"CUP_O_MI6A_RU",
-	"CUP_O_Mi24_V_RU",
-	"CUP_O_Ka60_Grey_RU"
+        "RHS_Mi8MTV3_UPK23_vdv",
+	"RHS_Mi24V_UPK23_vdv",
+	"RHS_Mi24V_vvs",
+	"RHS_Ka52_UPK23_vvs"
 ];
 
 // Opfor military aircrafts    
 opfor_air_overwrite = true;
 opfor_air_extension = [
-"CUP_O_RUS_SpecOps","CUP_O_RUS_SpecOps","CUP_O_RUS_SpecOps","CUP_O_RUS_SpecOps","CUP_O_RUS_SpecOps","CUP_O_RUS_SpecOps"];
+"rhs_vmf_recon_efreitor","rhs_vmf_recon_efreitor","rhs_vmf_recon_efreitor","rhs_vmf_recon_efreitor","rhs_vmf_recon_efreitor","rhs_vmf_recon_efreitor"];
 
 
 // Other stuff
