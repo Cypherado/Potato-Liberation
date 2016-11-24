@@ -2,6 +2,12 @@
 
 ## Current version : 0.35
 
+V0.35.2
+* Modified: Earplugs will now work dynamically with the selected vehicle volume in the Extended Options menu.
+
+V0.35.1
+* Fixed: A quite unruly issue with the editor and mods breaking things.
+
 V0.35
 * Added: All units are medics and engineers
 * Added: Health regeneration if at 75% or more health

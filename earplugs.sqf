@@ -1,11 +1,15 @@
+// TRUE is IN
+// FALSE is OUT
+
 Cell_earplugs = true;
+Cell_earplug_vol = 0.3;
 
 _action = player addAction ["<t color='#89E894'>Earplugs</t>", {
 
 	if ((hasInterface) && (Cell_earplugs)) then 
 	{
 		Cell_earplugs = false;
-		0 fadeSound 0.3;
+		0 fadeSound Cell_earplug_vol;
 		hint "Earplugs IN";
 	}
 	else 
