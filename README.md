@@ -1,13 +1,6 @@
 # Customized version of the ARMA 3 mission Liberation.
 
-## Current version : 0.4
-
-V0.4
-* Added: RHS enemy units
-* Added: Some RHS vehicles to buy
-* Added: RHS recyclables for opfor
-* Added: RHS units replace vanilla purchasable units
-* Added: Texan AT-6
+## Current version : 0.35
 
 V0.35
 * Added: All units are medics and engineers
