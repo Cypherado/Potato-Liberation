@@ -23,11 +23,13 @@
 
 V1.3
 * Modified: Removed most vanilla vehicles
+* Modified: Major RHS overhaul
 * Fixed: Texan is now 100 ammo 30 fuel to reflect same cost as Buzzard (CAS)
 * Fixed: Zeus spam messages
 
 V1.2
 * Modified: Earplugs will now work dynamically with the selected vehicle volume in the Extended Options menu.
+* Added: RHS units
 
 V1.1
 * Fixed: A quite unruly issue with the editor and mods breaking things.
