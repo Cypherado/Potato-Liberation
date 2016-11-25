@@ -271,13 +271,13 @@ opfor_paratrooper = "rhs_vmf_recon_efreitor";
 // OPFOR Vehicles to be used in secondary objectives
 opfor_mrap = "rhs_bmp2k_vv";
 opfor_mrap_armed = "rhs_tigr_sts_3camo_msv";
-opfor_transport_helo = "CUP_O_Ural_Repair_RU";
+opfor_transport_helo = "rhs_Mi8AMT_vvsc";
 opfor_transport_truck = "RHS_Ural_VV_01";
 opfor_fuel_truck = "RHS_Ural_Fuel_VMF_01";
-opfor_ammo_truck = "CUP_O_Ural_Reammo_RU";
+opfor_ammo_truck = "rhs_gaz66_ammo_msv";
 opfor_fuel_container = nil;
 opfor_ammo_container = nil;
-opfor_flag = "Flag_CSAT_F";
+opfor_flag = "rhs_Flag_Russia_F";
 
 // Militia infantry. Soldier classnames the game will pick from randomly
 militia_squad_overwrite = true;
