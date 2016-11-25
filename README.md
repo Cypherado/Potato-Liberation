@@ -30,6 +30,7 @@ V1.3
 V1.2
 * Modified: Earplugs will now work dynamically with the selected vehicle volume in the Extended Options menu.
 * Added: RHS units
+* Added: Texan
 
 V1.1
 * Fixed: A quite unruly issue with the editor and mods breaking things.
