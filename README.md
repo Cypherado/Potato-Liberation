@@ -1,6 +1,11 @@
 # Customized version of the ARMA 3 mission Liberation.
 
-## Current version : 1.2
+## Current version : 1.3
+
+V1.3
+* Modified: Removed most vanilla vehicles
+* Fixed: Texan is now 100 ammo 30 fuel to reflect same cost as Buzzard (CAS)
+* Fixed: Zeus spam messages
 
 V1.2
 * Modified: Earplugs will now work dynamically with the selected vehicle volume in the Extended Options menu.

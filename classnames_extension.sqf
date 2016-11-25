@@ -54,21 +54,16 @@ infantry_units_extension = [
 ["rhsusf_socom_marsoc_sniper",3,5,0]
 ];
 
-light_vehicles_overwrite = false;
+light_vehicles_overwrite = true;
 light_vehicles_extension = [
-        ["B_T_LSV_01_unarmed_F",0,0,2],
-        ["B_T_LSV_01_armed_F",0,10,3],
-	["fsf_fnk_hmg_ce",0,10,3],
-	["rhsusf_mkvsoc",0,50,10],
-	["greuh_fnk_hmg_ce",0,10,3],
-	["greuh_fnk_hmg_dsrt",0,10,3],
+		["rhsusf_mkvsoc",0,50,10],
 	["CUP_B_Mastiff_HMG_GB_D",0,15,5],
 	["CUP_B_HMMWV_Avenger_USMC",0,20,7],
 	["CUP_B_HMMWV_TOW_USA",0,15,3],
-	["rhsusf_m998_d_4dr",0,0,5],
-	["rhsusf_m1025_d_m2",0,10,3],
-	["rhsusf_m1025_d_Mk19",0,10,3],
-	["rhsusf_M1117_D",0,10,3],
+	["rhsusf_m998_d_4dr",0,0,2],
+	["rhsusf_m1025_d_m2",0,5,3],
+	["rhsusf_m1025_d_Mk19",0,5,3],
+	["rhsusf_M1117_D",0,15,3],
 	["rhsusf_rg33_m2_d",0,10,3],
 	["rhsusf_m113d_usarmy_M240",0,10,3],
 	["rhsusf_M1083A1P2_B_d_open_fmtv_usarmy",0,10,3],
@@ -76,15 +71,8 @@ light_vehicles_extension = [
 	["rhsusf_M977A4_AMMO_BKIT_usarmy_d",5,0,0]
 ];
 
-heavy_vehicles_overwrite = false;
+heavy_vehicles_overwrite = true;
 heavy_vehicles_extension = [
-	["I_APC_Wheeled_03_cannon_F",0,50,10],
-	["greuh_pandur_wdld",0,50,10],
-	["I_APC_tracked_03_cannon_F",0,40,15],
-	["greuh_fv510_wdld",0,40,15],
-	["greuh_fv510_dsrt",0,40,15],
-	["Steve_MBT_Kuma",0,100,25],
-	["I_MBT_03_cannon_F",0,100,25],
 	["CUP_B_M1126_ICV_M2_Desert",0,20,5],
 	["CUP_B_FV510_GB_D_SLAT",0,45,15],
 	["CUP_B_M163_USA",0,40,10],
@@ -92,35 +80,12 @@ heavy_vehicles_extension = [
 	["RHS_M2A3_BUSKIII",0,55,15],
 	["rhsusf_m1a1aim_tuski_d",0,100,25],
 	["rhsusf_m1a2sep1tuskiid_usarmy",0,100,25],
-	["rhsusf_m109d_usarmy",0,750,50],
-	["Burnes_FV4034_01",0,250,40]
+	["rhsusf_m109d_usarmy",0,750,50]
 ];
 
-air_vehicles_overwrite = false;
+air_vehicles_overwrite = true;
 air_vehicles_extension = [
-        ["O_T_VTOL_02_vehicle_F",0,300,60],
-        ["O_T_VTOL_02_infantry_F",0,300,60],
-        ["B_T_VTOL_01_armed_F",0,350,60],
-        ["B_T_VTOL_01_infantry_F",0,0,60],
-        ["B_T_VTOL_01_vehicle_F",0,0,60],
-        ["B_T_UAV_03_F",1,200,20],	
-        ["greuh_aw159_t",0,0,12],
-	["greuh_aw159_a",0,50,12],
-	["I_Heli_light_03_unarmed_F",0,0,12],
-	["I_Heli_light_03_F",0,50,12],
-	["JNS_Skycrane_BLU_Black",0,0,18],
-	["greuh_eh101_gr",0,0,25],
-	["I_Heli_Transport_02_F",0,0,25],
-	["MV22",0,0,25],
-	["H_RAH66",0,200,30],
-	["JS_JC_FA18E",0,350,40],
-	["JS_JC_FA18F",0,350,40],
-	["sab_C130_CSP",0,0,30],
-	["sab_C130_J",0,0,30],
-	["usaf_f22",0,500,75],
-	["USAF_F35A",0,600,75],
-	["I_Plane_Fighter_03_AA_F",0,50,30],
-	["I_Plane_Fighter_03_CAS_F",0,100,30],
+        ["CUP_B_USMC_MQ9",1,200,20],	
 	["RHS_MELB_AH6M_H",0,50,20],
 	["RHS_MELB_AH6M_L",0,50,20],
 	["RHS_MELB_AH6M_M",0,50,20],
@@ -131,13 +96,17 @@ air_vehicles_extension = [
 	["RHS_UH60M_d",0,20,12],
 	["rhsusf_CH53E_USMC_D",0,20,20],
 	["RHS_UH1Y_UNARMED_d",0,20,12],
-	["bwi_a3_at6b",0,300,50],
+	["bwi_a3_at6b",0,100,30],
 	["FIR_F15E",0,1400,50]
 ];
 
 static_vehicles_overwrite = false;
 static_vehicles_extension = [
-     
+	["RHS_M2StaticMG_MiniTripod_D",0,10,0],
+	["RHS_M2StaticMG_D",0,10,0],
+	["RHS_MK19_TriPod_D",0,20,0],
+	["RHS_Stinger_AA_pod_D",0,40,0],
+    ["RHS_TOW_TriPod_D",0,200,0]
 ];
 
 buildings_overwrite = false;
@@ -424,19 +393,15 @@ vehicle_refuel_sources_extension = [
 
 // Elite vehicles that should be unlocked through military base capture.
 elite_vehicles_extension = [
-	"Steve_MBT_Kuma",
-	"Burnes_FV4034_01",
-	"RHS_AH1Z_wd_GS",
-	"H_RAH66",
-	"RHS_AH64D_wd",
-	"JS_JC_FA18E",
-	"JS_JC_FA18F",
-	"greuh_pandur_wdld",
-	"RHS_M2A3_BUSKIII_wd",
-	"usaf_f22",
-	"USAF_F35A",
+	"RHS_AH64D",
+	"RHS_AH1Z",
+	"bwi_a3_at6b",
+	"RHS_M2A3_BUSKIII",
+	"RHS_M6",
+	"rhsusf_m1a1aim_tuski_d",
 	"rhsusf_m1a2sep1tuskiid_usarmy",
-	"FIR_F16C",
+	"rhsusf_m109d_usarmy",
+	"CUP_B_USMC_MQ9",
 	"FIR_F15E"
 ];
 

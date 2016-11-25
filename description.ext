@@ -7,7 +7,7 @@ allowFunctionsLog = 0;
 
 loadScreen="res\potatoliberation.jpg";
 onLoadMission = $STR_MISSION_TITLE;
-author = "Cell & Lulu";
+author = "Cell & Lusine";
 onLoadName = $STR_MISSION_TITLE;
 
 joinUnassigned = 0;
