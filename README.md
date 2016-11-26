@@ -15,7 +15,7 @@ V1.0
 * PANIC! EVERYTHING IS BROKEN! REVERT ALL THE CHANGES!
 
 V0.35.2
-* Modified: Earplugs will now work dynamically with the selected vehicle volume in the Extended Options menu.
+* Modified: Earplugs will now work dynamically with the selected vehicle volume in the Extended Options menu. (NOPE).
 
 V0.35.1
 * Fixed: A quite unruly issue with the editor and mods breaking things.

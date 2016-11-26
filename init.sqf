@@ -8,6 +8,7 @@ enableSaving [ false, false ];
 [] call compileFinal preprocessFileLineNUmbers "classnames_extension.sqf";
 [] call compileFinal preprocessFileLineNUmbers "scripts\shared\classnames.sqf";
 
+[] execVM "PL_version.sqf";
 [] execVM "earplugs.sqf";
 [] execVM "health_regen.sqf";
 
