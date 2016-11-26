@@ -25,7 +25,8 @@ V1.3
 * Modified: Removed most vanilla vehicles
 * Modified: Major RHS overhaul
 * Fixed: Texan is now 100 ammo 30 fuel to reflect same cost as Buzzard (CAS)
-* Fixed: Zeus spam messages
+* Modified: Zeus should no longer ruin the immersion of others when he respawns (Ascended notification).
+* Fixed: Earplugs will now actually respect the user's in-vehicle sound volume and remember their state from before getting in.
 
 V1.2
 * Modified: Earplugs will now work dynamically with the selected vehicle volume in the Extended Options menu.
@@ -82,4 +83,3 @@ CHANGED:
 ## Overview
 
 This version has compatibility for CUP Units and you can recycle captured OPFOR vehicles.
-
