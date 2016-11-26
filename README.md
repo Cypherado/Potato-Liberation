@@ -1,24 +1,42 @@
 # Customized version of the ARMA 3 mission Liberation.
 
-## Current version : 1.2.1
-V1.2.1
-* Modified: Zeus should no longer ruin the immersion of others when he respawns (Ascended notification).
-* Fixed: Earplugs will now actually respect the user's in-vehicle sound volume and remember their state from before getting in.
+## Current version : 1.3
+
+## Required Mods
+* http://www.rhsmods.org/mod/1#download
+* http://www.rhsmods.org/mod/2#download
+* http://steamcommunity.com/sharedfiles/filedetails/?id=323854117
+* http://steamcommunity.com/sharedfiles/filedetails/?id=598721423
+* http://steamcommunity.com/sharedfiles/filedetails/?id=388697912
+* http://steamcommunity.com/sharedfiles/filedetails/?id=366425329
+* http://steamcommunity.com/sharedfiles/filedetails/?id=582478120
+* http://steamcommunity.com/sharedfiles/filedetails/?id=730310357
+* http://steamcommunity.com/sharedfiles/filedetails/?id=713709341
+* http://steamcommunity.com/sharedfiles/filedetails/?id=639837898
+* http://steamcommunity.com/sharedfiles/filedetails/?id=615007497
+* http://steamcommunity.com/sharedfiles/filedetails/?id=333310405
+* http://steamcommunity.com/sharedfiles/filedetails/?id=450814997
+* http://steamcommunity.com/sharedfiles/filedetails/?id=498740884
+* http://steamcommunity.com/sharedfiles/filedetails/?id=497660133
+* http://steamcommunity.com/sharedfiles/filedetails/?id=541888371
+* http://steamcommunity.com/sharedfiles/filedetails/?id=497661914
+
+V1.3
+* Modified: Removed most vanilla vehicles
+* Modified: Major RHS overhaul
+* Fixed: Texan is now 100 ammo 30 fuel to reflect same cost as Buzzard (CAS)
+* Fixed: Zeus spam messages
 
 V1.2
 * Modified: Earplugs will now work dynamically with the selected vehicle volume in the Extended Options menu.
+* Added: RHS units
+* Added: Texan
 
 V1.1
 * Fixed: A quite unruly issue with the editor and mods breaking things.
 
 V1.0
 * PANIC! EVERYTHING IS BROKEN! REVERT ALL THE CHANGES!
-
-V0.35.2
-* Modified: Earplugs will now work dynamically with the selected vehicle volume in the Extended Options menu.
-
-V0.35.1
-* Fixed: A quite unruly issue with the editor and mods breaking things.
 
 V0.35
 * Added: All units are medics and engineers
@@ -64,5 +82,4 @@ CHANGED:
 ## Overview
 
 This version has compatibility for CUP Units and you can recycle captured OPFOR vehicles.
-
 
