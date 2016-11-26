@@ -38,9 +38,7 @@ while { true } do {
 		};
 		setViewDistance _desired_veh;
 		
-		if ((Cell_earplugs) || !(Cell_earplugs)) then {
-			1 fadeSound ( desired_vehvolume / 100.0 );
-		};
+		1 fadeSound ( desired_vehvolume / 100.0 );
 		
 	} else {
 
@@ -51,13 +49,11 @@ while { true } do {
 		setViewDistance _desired_inf;
 		
 		if !(Cell_earplugs) then {
-			
-			1 fadeSound Cell_earplug_vol;
+			0 fadeSound Cell_earplug_vol;
 		}
 		else
 		{
-			
-			1 fadeSound 1;
+			0 fadeSound 1;
 		};
 		
 	};
