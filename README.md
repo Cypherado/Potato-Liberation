@@ -1,6 +1,9 @@
 # Customized version of the ARMA 3 mission Liberation.
 
-## Current version : 1.2
+## Current version : 1.2.1
+V1.2.1
+* Modified: Zeus should no longer ruin the immersion of others when he respawns (Ascended notification).
+* Fixed: Earplugs will now actually respect the user's in-vehicle sound volume and remember their state from before getting in.
 
 V1.2
 * Modified: Earplugs will now work dynamically with the selected vehicle volume in the Extended Options menu.

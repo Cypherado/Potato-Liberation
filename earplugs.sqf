@@ -13,11 +13,10 @@ _action = player addAction ["<t color='#89E894'>Earplugs</t>", {
 		hint "Earplugs IN";
 	}
 	else 
-	{
-		
+	{		
 		if (vehicle player != player) then {
 			0 fadeSound ( desired_vehvolume / 100.0 );
-			hint "Using vehicle sound level";
+			hintSilent "Using vehicle sound level";
 		}
 		else
 		{
