@@ -27,6 +27,7 @@ V1.3
 * Fixed: Texan is now 100 ammo 30 fuel to reflect same cost as Buzzard (CAS)
 * Modified: Zeus should no longer ruin the immersion of others when he respawns (Ascended notification).
 * Fixed: Earplugs will now actually respect the user's in-vehicle sound volume and remember their state from before getting in.
+* Added: Journal entries for current and past versions.
 
 V1.2
 * Modified: Earplugs will now work dynamically with the selected vehicle volume in the Extended Options menu.
