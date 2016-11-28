@@ -7,7 +7,7 @@ if ( _veh isKindOf "Tank" || _veh isKindOf "Air" ) then {
 		!(alive _veh) || ( { alive _x } count (crew _veh) == 0)
 	};
 
-	if ( random 100 < 80 ) then {
+	if ( random 100 < 55 ) then {
 		sleep 10;
 		if ( (alive _veh) && ( { alive _x } count (crew _veh) == 0) ) then {
 			_veh setdamage 1;

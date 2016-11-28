@@ -68,35 +68,36 @@ light_vehicles_extension = [
 	["rhsusf_m113d_usarmy_M240",0,10,3],
 	["rhsusf_M1083A1P2_B_d_open_fmtv_usarmy",0,10,3],
 	["rhsusf_M977A4_REPAIR_BKIT_usarmy_d",5,0,0],
-	["rhsusf_M977A4_AMMO_BKIT_usarmy_d",5,0,0]
+	["rhsusf_M977A4_AMMO_BKIT_usarmy_d",5,0,0],
+	["B_Truck_01_transport_F",0,15,10]
 ];
 
 heavy_vehicles_overwrite = true;
 heavy_vehicles_extension = [
-	["CUP_B_M1126_ICV_M2_Desert",0,20,5],
-	["CUP_B_FV510_GB_D_SLAT",0,45,15],
-	["CUP_B_M163_USA",0,40,10],
-	["RHS_M6",0,55,15],
-	["RHS_M2A3_BUSKIII",0,55,15],
-	["rhsusf_m1a1aim_tuski_d",0,100,25],
-	["rhsusf_m1a2sep1tuskiid_usarmy",0,100,25],
+	["CUP_B_M1126_ICV_M2_Desert",0,35,5],
+	["CUP_B_FV510_GB_D_SLAT",0,120,15],
+	["CUP_B_M163_USA",0,100,10],
+	["RHS_M6",0,110,15],
+	["RHS_M2A3_BUSKIII",0,110,15],
+	["rhsusf_m1a1aim_tuski_d",0,200,40],
+	["rhsusf_m1a2sep1tuskiid_usarmy",0,200,40],
 	["rhsusf_m109d_usarmy",0,750,50]
 ];
 
 air_vehicles_overwrite = true;
 air_vehicles_extension = [
         ["CUP_B_USMC_MQ9",1,200,20],	
-	["RHS_MELB_AH6M_H",0,50,20],
-	["RHS_MELB_AH6M_L",0,50,20],
-	["RHS_MELB_AH6M_M",0,50,20],
-	["RHS_AH64D",0,50,20],
-	["RHS_AH1Z",0,50,20],
-	["RHS_UH1Y_d_GS",0,50,20],
-	["RHS_CH_47F",0,20,20],
-	["RHS_UH60M_d",0,20,12],
-	["rhsusf_CH53E_USMC_D",0,20,20],
-	["RHS_UH1Y_UNARMED_d",0,20,12],
-	["bwi_a3_at6b",0,100,30],
+	["RHS_MELB_AH6M_H",0,150,20],
+	["RHS_MELB_AH6M_L",0,175,20],
+	["RHS_MELB_AH6M_M",0,125,20],
+	["RHS_AH64D",0,350,75],
+	["RHS_AH1Z",0,350,75],
+	["RHS_UH1Y_d_GS",0,150,20],
+	["RHS_CH_47F",0,100,20],
+	["RHS_UH60M_d",0,75,12],
+	["rhsusf_CH53E_USMC_D",0,100,20],
+	["RHS_UH1Y_UNARMED_d",0,50,12],
+	["bwi_a3_at6b",0,400,35],
 	["FIR_F15E",0,1400,50]
 ];
 
@@ -188,24 +189,24 @@ Cell_recycleable_vehicles = [
 	["CUP_O_Ka60_Grey_RU",0,100,0],
 	
 	//RHS Compatibility OpFor
-	["rhs_t72ba_tv",0,400,0],
-	["rhs_bmp3mera_msv",0,150,0],
-	["rhs_bmp2k_msv",0,100,0],
-	["rhs_zsu234_aa",0,150,0],
-	["rhs_t90a_tv",0,500,0],
-	["rhs_t80um",0,500,0],
-	["rhs_bmd4m_vdv",0,350,0],
-	["rhs_tigr_sts_3camo_msv",0,75,0],
-	["rhs_gaz66_zu23_msv",0,50,0],
-	["rhs_bmd1k",0,100,0],
-	["RHS_Ural_Open_VMF_01",0,50,0],
-	["RHS_Ural_VV_01",0,50,0],
-	["RHS_Ural_Fuel_VMF_01",0,50,0],
-	["rhs_bmp2k_vv",0,100,0],
-	["RHS_Mi24V_vvs",0,500,0],
-	["RHS_Mi8MTV3_UPK23_vdv",0,500,0],
-	["RHS_Ka52_UPK23_vvs",0,500,0],
-	["RHS_Mi24V_UPK23_vdv",0,500,0],
+	["rhs_t72ba_tv",0,460,0], // 300
+	["rhs_bmp3mera_msv",0,230,0], // 150
+	["rhs_bmp2k_msv",0,200,0], // 135
+	["rhs_zsu234_aa",0,138,0], // 90
+	["rhs_t90a_tv",0,769,0], // 500
+	["rhs_t80um",0,577,0], // 375
+	["rhs_bmd4m_vdv",0,346,0], // 225 
+	["rhs_tigr_sts_3camo_msv",0,115,0], // 75
+	["rhs_gaz66_zu23_msv",0,77,0], // 50
+	["rhs_bmd1k",0,154,0], // 100
+	["RHS_Ural_Open_VMF_01",0,115,0], // 75
+	["RHS_Ural_VV_01",0,115,0], // 75
+	["RHS_Ural_Fuel_VMF_01",0,115,0], // 75
+	["rhs_bmp2k_vv",0,200,0], // 135
+	["RHS_Mi24V_vvs",0,1076,0], // 700
+	["RHS_Mi8MTV3_UPK23_vdv",0,1076,0], // 700
+	["RHS_Ka52_UPK23_vvs",0,1538,0], // 1000
+	["RHS_Mi24V_UPK23_vdv",0,1076,0], // 700
 		
 	// Civilian
 	["C_Offroad_02_unarmed_F",0,20,0]

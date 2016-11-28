@@ -1,28 +1,28 @@
 // TRUE is IN
 // FALSE is OUT
+// Earplugs vars are now in init_client.sqf to fix the revive issue and will now persist through death.
 
-Cell_earplugs = true;
-Cell_earplug_vol = 0.3;
+if (Cell_earplugs) then {hint "Earplugs: IN"};
 
 _action = player addAction ["<t color='#89E894'>Earplugs</t>", {
 	
-	if ((hasInterface) && (Cell_earplugs) && (vehicle player == player)) then
+	if ((hasInterface) && !(Cell_earplugs) && (vehicle player == player)) then
 	{
-		Cell_earplugs = false;
+		hint "Earplugs: IN";
 		0 fadeSound Cell_earplug_vol;
-		hint "Earplugs IN";
+		Cell_earplugs = true;
 	}
 	else 
 	{		
 		if (vehicle player != player) then {
 			0 fadeSound ( desired_vehvolume / 100.0 );
-			hintSilent "Using vehicle sound level";
+			hintSilent "Earplugs: Using vehicle sound level";
 		}
 		else
 		{
-			Cell_earplugs = true;
 			0 fadeSound 1;
-			hint "Earplugs OUT";
+			hint "Earplugs: OUT";
+			Cell_earplugs = false;
 		};
 	};
 
@@ -30,7 +30,6 @@ _action = player addAction ["<t color='#89E894'>Earplugs</t>", {
 
 waitUntil {sleep 1; !(alive player)};
 player removeAction _action;
-0 fadeSound 1;
 
 waitUntil {sleep  1; (alive player)};
 
