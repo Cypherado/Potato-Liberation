@@ -20,9 +20,8 @@ cinematic_camera = compileFinal preprocessFileLineNumbers "scripts\client\ui\cin
 write_credit_line = compileFinal preprocessFileLineNumbers "scripts\client\ui\write_credit_line.sqf";
 do_load_box = compileFinal preprocessFileLineNumbers "scripts\client\ammoboxes\do_load_box.sqf";
 
-Cell_earplug_vol = 0.3;
-Cell_earplugs_revfix = false;
 Cell_earplugs = false;
+Cell_earplug_vol = 0.3;
 
 
 [] spawn compileFinal preprocessFileLineNumbers "scripts\client\actions\action_manager.sqf";

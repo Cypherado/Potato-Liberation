@@ -15,7 +15,11 @@ _newvehicle addMPEventHandler ["MPKilled", {_this spawn kill_manager}];
 
 while { count units _para_group < 8 } do {
 	opfor_paratrooper createUnit [ getmarkerpos _spawnsector, _para_group, 'this addMPEventHandler ["MPKilled", {_this spawn kill_manager}]'];
-	opfor_paratrooper addBackpack "B_Parachute";
+};
+
+if ({(Backpack _x) == ""} foreach (units _para_group) || {(Backpack _x) != "B_Parachute"} foreach (units _para_group)) then {
+	{removeBackpack _x} foreach (units _para_group);
+	{_x addBackpack "B_Parachute"} foreach (units _para_group);
 };
 
 { _x moveInCargo _newvehicle } foreach (units _para_group);
