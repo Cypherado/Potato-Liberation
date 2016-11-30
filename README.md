@@ -1,6 +1,6 @@
 # Customized version of the ARMA 3 mission Liberation.
 
-## Current version : 1.3
+## Current version : 1.3.1
 
 ## Required Mods
 * http://www.rhsmods.org/mod/1#download
@@ -20,6 +20,19 @@
 * http://steamcommunity.com/sharedfiles/filedetails/?id=497660133
 * http://steamcommunity.com/sharedfiles/filedetails/?id=541888371
 * http://steamcommunity.com/sharedfiles/filedetails/?id=497661914
+
+## Changelog
+v1.3.1
+
+* Changed: Vehicle values have been adjusted. No more 50 ammo Apaches and
+captured vehicles now give worthwhile rewards.
+* Added: Transport HEMTT added to Light Vehicle list
+* Fixed: Earplugs state fix for revive and respawn. (Actually broken still :\ )
+* Changed: Lowered chance for enemy vehicle to blow up on crew ejecting.
+* Changed: Increased Civ Kill Penalty to 100 from 10.
+* Changed: Towns now only require 9 enemies left remaining instead of 3 to be
+capped.
+* Fixed: Paratroopers should no longer splat into the ground.
 
 V1.3
 * Modified: Removed most vanilla vehicles
