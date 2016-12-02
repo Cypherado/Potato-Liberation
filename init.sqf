@@ -37,7 +37,7 @@ if (!isDedicated && hasInterface) then {
 };
 
 
-{
+/* {
 _x setSkill ["aimingspeed", 0.1];
 _x setSkill ["spotdistance", 0.1];
 _x setSkill ["aimingaccuracy", 0.1];
@@ -46,6 +46,6 @@ _x setSkill ["spottime", 0.1];
 _x setSkill ["spotdistance", 0.5];
 _x setSkill ["commanding", 1];
 _x setSkill ["general", 1];
-} forEach (allUnits select {side _x == east});
+} forEach (allUnits select {side _x == east}); */
 
 if (isServer) then { {[_x, [-1, -2, 2]] call bis_fnc_setCuratorVisionModes;} forEach allCurators; };

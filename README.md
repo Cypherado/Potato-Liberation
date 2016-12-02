@@ -1,6 +1,6 @@
 # Customized version of the ARMA 3 mission Liberation.
 
-## Current version : 1.3.1
+## Current version : 1.3.2
 
 ## Required Mods
 * http://www.rhsmods.org/mod/1#download
@@ -22,6 +22,11 @@
 * http://steamcommunity.com/sharedfiles/filedetails/?id=497661914
 
 ## Changelog
+v1.3.2
+
+* Fixed: Finally fixed the revive/earplug state issue.<br/><br/>
+* Modified: Increased number of AI that need to be killed before a sector caps.
+
 v1.3.1
 
 * Changed: Vehicle values have been adjusted. No more 50 ammo Apaches and

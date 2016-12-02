@@ -48,7 +48,8 @@ while { true } do {
 		};
 		setViewDistance _desired_inf;
 		
-		if (Cell_earplugs) then {
+		if (player getVariable "Cell_earplugs") then 
+		{
 			0 fadeSound Cell_earplug_vol;
 		}
 		else

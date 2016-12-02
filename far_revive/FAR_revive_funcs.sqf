@@ -157,7 +157,13 @@ FAR_Player_Unconscious =
 				if ( !GRLIB_replace_ai ) then {
 					sleep 6;
 				};
-
+				
+				// Fade sound back to Earplugs level if player had earplugs inserted. 
+				if (_unit getVariable "Cell_earplugs") then 
+					{ 0 fadeSound Cell_earplug_vol; }
+				else
+					{ 0 fadeSound 1; };
+				
 				// Clear the "medic nearby" hint
 				hintSilent "";
 
