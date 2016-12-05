@@ -5,6 +5,7 @@
 ## Required Mods
 * http://www.rhsmods.org/mod/1#download
 * http://www.rhsmods.org/mod/2#download
+* http://steamcommunity.com/sharedfiles/filedetails/?id=620019431
 * http://steamcommunity.com/sharedfiles/filedetails/?id=323854117
 * http://steamcommunity.com/sharedfiles/filedetails/?id=598721423
 * http://steamcommunity.com/sharedfiles/filedetails/?id=388697912
