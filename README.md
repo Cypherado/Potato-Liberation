@@ -1,6 +1,6 @@
 # Customized version of the ARMA 3 mission Liberation.
 
-## Current version : 1.3.2
+## Current version : 1.3.3
 
 ## Required Mods
 * http://www.rhsmods.org/mod/1#download
@@ -23,6 +23,14 @@
 * http://steamcommunity.com/sharedfiles/filedetails/?id=497661914
 
 ## Changelog
+v1.3.3
+* Changed: FOB Truck changed to RHS MHQ truck
+* Changed: Huron replaced with RHS CH-47
+* Added: Wall and Tent Hangar to buildable objects
+* Added: RHS MH-6M
+* Fixed (?): UAV bug
+
+
 v1.3.2
 
 * Fixed: Finally fixed the revive/earplug state issue.<br/><br/>
