@@ -437,6 +437,15 @@ blacklisted_from_arsenal_extension = [
 	"rhs_Tow_Gun_Bag",
 	"rhs_TOW_Tripod_Bag",
         "Item_optic_Nightstalker"
+	"rhs_ammo_fakel",
+	"rhs_ammo_fakels",
+	"rhs_ammo_zarya2",
+	"rhs_ammo_plamyam",
+	"rhs_ammo_m7a3_cs",
+	"rhs_ammo_mk3a2",
+	"rhs_ammo_m84",
+	"rhs_mag_m4009",
+	"rhs_g_vg40sz"
 ];
 
 // Configuration for ammo boxes transport
