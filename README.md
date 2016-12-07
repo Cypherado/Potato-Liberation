@@ -3,24 +3,24 @@
 ## Current version : 1.3.3
 
 ## Required Mods
-* http://www.rhsmods.org/mod/1#download
-* http://www.rhsmods.org/mod/2#download
-* http://steamcommunity.com/sharedfiles/filedetails/?id=620019431
-* http://steamcommunity.com/sharedfiles/filedetails/?id=323854117
-* http://steamcommunity.com/sharedfiles/filedetails/?id=598721423
-* http://steamcommunity.com/sharedfiles/filedetails/?id=388697912
-* http://steamcommunity.com/sharedfiles/filedetails/?id=366425329
-* http://steamcommunity.com/sharedfiles/filedetails/?id=582478120
-* http://steamcommunity.com/sharedfiles/filedetails/?id=730310357
-* http://steamcommunity.com/sharedfiles/filedetails/?id=713709341
-* http://steamcommunity.com/sharedfiles/filedetails/?id=639837898
-* http://steamcommunity.com/sharedfiles/filedetails/?id=615007497
-* http://steamcommunity.com/sharedfiles/filedetails/?id=333310405
-* http://steamcommunity.com/sharedfiles/filedetails/?id=450814997
-* http://steamcommunity.com/sharedfiles/filedetails/?id=498740884
-* http://steamcommunity.com/sharedfiles/filedetails/?id=497660133
-* http://steamcommunity.com/sharedfiles/filedetails/?id=541888371
-* http://steamcommunity.com/sharedfiles/filedetails/?id=497661914
+* http://www.rhsmods.org/mod/1#download RHS:AFRF
+* http://www.rhsmods.org/mod/2#download RHS:USAF
+* http://steamcommunity.com/sharedfiles/filedetails/?id=620019431 task_force_radio
+* http://steamcommunity.com/sharedfiles/filedetails/?id=323854117 BWI - AT-6B + T-6A/C Pack
+* http://steamcommunity.com/sharedfiles/filedetails/?id=598721423 MRT Accessory Functions
+* http://steamcommunity.com/sharedfiles/filedetails/?id=388697912 FHQ_Accessories
+* http://steamcommunity.com/sharedfiles/filedetails/?id=366425329 FIR AWS(AirWeaponSystem)
+* http://steamcommunity.com/sharedfiles/filedetails/?id=582478120 F-15 Eagle
+* http://steamcommunity.com/sharedfiles/filedetails/?id=730310357 Advanced Urban Rappelling
+* http://steamcommunity.com/sharedfiles/filedetails/?id=713709341 Advanced Rappelling
+* http://steamcommunity.com/sharedfiles/filedetails/?id=639837898 Advanced Towing
+* http://steamcommunity.com/sharedfiles/filedetails/?id=615007497 Advanced Sling Loading
+* http://steamcommunity.com/sharedfiles/filedetails/?id=333310405 Arma Enhanced Movement
+* http://steamcommunity.com/sharedfiles/filedetails/?id=450814997 CBA_A3
+* http://steamcommunity.com/sharedfiles/filedetails/?id=498740884 ShackTac User Interface
+* http://steamcommunity.com/sharedfiles/filedetails/?id=497660133 CUP Weapons
+* http://steamcommunity.com/sharedfiles/filedetails/?id=541888371 CUP Vehicles
+* http://steamcommunity.com/sharedfiles/filedetails/?id=497661914 CUP Units
 
 ## Changelog
 v1.3.3
