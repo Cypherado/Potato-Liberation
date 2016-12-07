@@ -26,6 +26,7 @@
 v1.3.3
 * Changed: FOB Truck changed to RHS MHQ truck
 * Changed: Huron replaced with RHS CH-47
+* Changed: Stun grenades are blacklisted
 * Added: Wall and Tent Hangar to buildable objects
 * Added: RHS MH-6M
 * Fixed (?): UAV bug
