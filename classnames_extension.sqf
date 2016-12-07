@@ -436,7 +436,7 @@ blacklisted_from_arsenal_extension = [
 	"RHS_SPG9_Tripod_Bag",
 	"rhs_Tow_Gun_Bag",
 	"rhs_TOW_Tripod_Bag",
-        "Item_optic_Nightstalker"
+        "Item_optic_Nightstalker",
 	"rhs_ammo_fakel",
 	"rhs_ammo_fakels",
 	"rhs_ammo_zarya2",
