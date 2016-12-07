@@ -113,6 +113,8 @@ static_vehicles_extension = [
 buildings_overwrite = false;
 buildings_extension = [
     ["Land_IRMaskingCover_01_F",0,0,0],
+    ["Land_TentHangar__V1_F",0,0,0],
+    ["Land_Mil_WallBig_4m_F",0,0,0],
     ["Land_LampAirport_F",0,0,0]
 ];
 
