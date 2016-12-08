@@ -86,10 +86,11 @@ heavy_vehicles_extension = [
 
 air_vehicles_overwrite = true;
 air_vehicles_extension = [
-        ["CUP_B_USMC_MQ9",1,200,20],	
+        ["CUP_B_USMC_MQ9",1,200,20],
 	["RHS_MELB_AH6M_H",0,150,20],
 	["RHS_MELB_AH6M_L",0,175,20],
 	["RHS_MELB_AH6M_M",0,125,20],
+	["RHS_MELB_MH6M",0,75,20],
 	["RHS_AH64D",0,350,75],
 	["RHS_AH1Z",0,350,75],
 	["RHS_UH1Y_d_GS",0,150,20],
@@ -113,7 +114,9 @@ static_vehicles_extension = [
 buildings_overwrite = false;
 buildings_extension = [
     ["Land_IRMaskingCover_01_F",0,0,0],
-    ["Land_LampAirport_F",0,0,0]
+    ["Land_LampAirport_F",0,0,0],
+	["Land_TentHangar__V1_F",0,0,0],
+	["Land_Mil_WallBig_4m_F",0,0,0]
 ];
 
 support_vehicles_overwrite = false;		// If you're going to overwrite this, make sure you have at least Arsenal_typename, Respawn_truck_typename, FOB_box_typename and FOB_truck_typename in there
@@ -393,6 +396,8 @@ vehicle_refuel_sources_extension = [
 ];
 
 // Elite vehicles that should be unlocked through military base capture.
+// If overwrite is true, vanilla Elite vehicles will be removed and replaced with the extension. NOTE: Only takes affect on mission restart. 
+elite_vehicles_overwrite = true;
 elite_vehicles_extension = [
 	"RHS_AH64D",
 	"RHS_AH1Z",
