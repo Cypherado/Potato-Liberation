@@ -22,6 +22,8 @@
 * [task_force_radio](http://steamcommunity.com/sharedfiles/filedetails/?id=620019431)
 
 ## Recomended Mods
+* [Blastcore: Phoenix 2](http://www.armaholic.com/page.php?id=23899)
+* [Blastcore Tracers](http://www.armaholic.com/page.php?id=24334)
 * [JSRS4 APEX](http://www.armaholic.com/page.php?id=27827)
 * [ShackTac User Interface](http://steamcommunity.com/sharedfiles/filedetails/?id=498740884)
 
