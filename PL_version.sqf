@@ -26,4 +26,11 @@ capped.<br/><br/>
 player createDiaryRecord ["PL Version", ["1.3.2", format ["* Fixed: Finally fixed the revive/earplug state issue.<br/><br/>
 * Modified: Increased number of AI that need to be killed before a sector caps."]]];
 
+player createDiaryRecord ["PL Version", ["1.3.3", format ["* Changed: FOB Truck changed to RHS MHQ truck<br/><br/>
+* Changed: Huron replaced with RHS CH-47<br/><br/>
+* Changed: Stun grenades are blacklisted<br/><br/>
+* Added: Wall and Tent Hangar to buildable objects<br/><br/>
+* Added: RHS MH-6M<br/><br/>
+* Fixed (?): UAV bug"]]];
+
 player createDiaryRecord ["PL Version", ["Current Version", format ["<font color='#ff8000'>Current version: </font> %1", localize "STR_MISSION_VERSION"]]];

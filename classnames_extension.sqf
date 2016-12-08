@@ -85,11 +85,15 @@ heavy_vehicles_extension = [
 ];
 
 air_vehicles_overwrite = true;
-air_vehicles_extension = [	
+air_vehicles_extension = [
+        ["CUP_B_USMC_MQ9",1,200,20],
+=======
+air_vehicles_extension = [
 	["RHS_MELB_MH6M",0,40,12],
 	["RHS_MELB_AH6M_H",0,150,20],
 	["RHS_MELB_AH6M_L",0,175,20],
 	["RHS_MELB_AH6M_M",0,125,20],
+	["RHS_MELB_MH6M",0,75,20],
 	["RHS_AH64D",0,350,75],
 	["RHS_AH1Z",0,350,75],
 	["RHS_UH1Y_d_GS",0,150,20],
@@ -127,7 +131,7 @@ support_vehicles_extension = [
 	["JNS_Skycrane_Pod_Transport_BLU_Black",5,0,0]
 ];
 
-// Recycleable list for OPFOR vehicles recovered from the battlefield. 
+// Recycleable list for OPFOR vehicles recovered from the battlefield.
 // Values are high because they are recycled for 65% of their value.
 // Baseline for light vehicles/troop transports is 35, APCs start at 100.
 Cell_recycleable_vehicles = [
@@ -153,7 +157,7 @@ Cell_recycleable_vehicles = [
 	["O_Heli_Attack_02_F",0,250,0],
 	["O_Heli_Attack_02_black_F",0,250,0],
 	["O_Plane_CAS_02_F",0,400,0],
-	
+
 	// OPFOR APEX Variants
 	["O_T_MRAP_02_ghex_F",0,20,0],
 	["O_T_MRAP_02_hmg_ghex_F",0,35,0],
@@ -163,18 +167,18 @@ Cell_recycleable_vehicles = [
 	["O_T_MBT_02_arty_ghex_F",0,500,0],
 	["O_G_Offroad_01_armed_F",0,30,0],
 	["I_G_Offroad_01_armed_F",0,30,0],
-	
+
 	// CUP OPFOR Compatiblity
 	["CUP_O_Ural_Repair_RU",0,50,0],
 	["CUP_O_Ural_Empty_RU",0,25,0],
 	["CUP_O_Ural_Refuel_RU",0,50,0],
 	["CUP_O_Ural_Reammo_RU",0,50,0],
-	
+
 	["CUP_O_UAZ_SPG9_CHDKZ",0,50,0],
 	["CUP_O_BRDM2_CHDKZ",0,50,0],
 	["CUP_O_UAZ_Open_CHDKZ",0,20,0],
 	["CUP_O_UAZ_MG_CHDKZ",0,35,0],
-	
+
 	["CUP_O_UAZ_MG_RU",0,35,0],
 	["CUP_O_GAZ_Vodnik_PK_RU",0,50,0],
 	["CUP_O_GAZ_Vodnik_AGS_RU",0,75,0],
@@ -184,12 +188,12 @@ Cell_recycleable_vehicles = [
 	["CUP_O_BMP3_RU",0,175,0],
 	["CUP_O_T72_RU",0,400,0],
 	["CUP_O_T90_RU",0,500,0],
-	
+
 	["CUP_O_Mi8_VIV_RU",0,200,0],
 	["CUP_O_MI6A_RU",0,200,0],
 	["CUP_O_Mi24_V_RU",0,350,0],
 	["CUP_O_Ka60_Grey_RU",0,100,0],
-	
+
 	//RHS Compatibility OpFor
 	["rhs_t72ba_tv",0,460,0], // 300
 	["rhs_bmp3mera_msv",0,230,0], // 150
@@ -197,7 +201,7 @@ Cell_recycleable_vehicles = [
 	["rhs_zsu234_aa",0,138,0], // 90
 	["rhs_t90a_tv",0,769,0], // 500
 	["rhs_t80um",0,577,0], // 375
-	["rhs_bmd4m_vdv",0,346,0], // 225 
+	["rhs_bmd4m_vdv",0,346,0], // 225
 	["rhs_tigr_sts_3camo_msv",0,115,0], // 75
 	["rhs_gaz66_zu23_msv",0,77,0], // 50
 	["rhs_bmd1k",0,154,0], // 100
@@ -209,7 +213,7 @@ Cell_recycleable_vehicles = [
 	["RHS_Mi8MTV3_UPK23_vdv",0,1076,0], // 700
 	["RHS_Ka52_UPK23_vvs",0,1538,0], // 1000
 	["RHS_Mi24V_UPK23_vdv",0,1076,0], // 700
-		
+
 	// Civilian
 	["C_Offroad_02_unarmed_F",0,20,0]
 ];
@@ -217,12 +221,12 @@ Cell_recycleable_vehicles = [
 // All the UAVs must be declared here, otherwise there shall be UAV controlling issues. Namely: you won't be able to control them.
 uavs = [
 ["B_T_UAV_03_F",1,200,20],
-["CUP_B_USMC_MQ9",1,200,20]	
+["CUP_B_USMC_MQ9",1,200,20]
 ];
 
 // Pre-made squads for the commander build menu. These shouldn't exceed 10 members.
 // Light infantry squad
-blufor_squad_inf_light = ["rhsusf_army_ocp_teamleader","rhsusf_army_ocp_autorifleman","rhsusf_army_ocp_grenadier","rhsusf_army_ocp_riflemanat"]; 
+blufor_squad_inf_light = ["rhsusf_army_ocp_teamleader","rhsusf_army_ocp_autorifleman","rhsusf_army_ocp_grenadier","rhsusf_army_ocp_riflemanat"];
 
 
 // Heavy infantry squad
@@ -295,7 +299,7 @@ militia_vehicles_extension = [
 	"CUP_O_BRDM2_CHDKZ",
 	"CUP_O_UAZ_Open_CHDKZ",
 	"CUP_O_UAZ_MG_CHDKZ"
-	
+
 ];
 
 // All the vehicles that can spawn as sector defenders and patrols
@@ -318,7 +322,7 @@ opfor_vehicles_low_intensity_extension = [
 	"rhs_gaz66_zu23_msv",
 	"rhs_bmd1k",
 	"rhs_bmp2k_msv",
-	"rhs_t72ba_tv"       
+	"rhs_t72ba_tv"
 ];
 
 // All the vehicles that can spawn as battlegroup members
@@ -341,7 +345,7 @@ opfor_battlegroup_vehicles_low_intensity_extension = [
 	"rhs_gaz66_zu23_msv",
 	"rhs_bmd1k",
 	"rhs_bmp2k_msv",
-	"rhs_t72ba_tv" 
+	"rhs_t72ba_tv"
 ];
 
 // All the vehicles that can spawn as battlegroup members (see above) and also hold 8 soldiers as passengers.
@@ -361,7 +365,7 @@ opfor_choppers_extension = [
 	"RHS_Ka52_UPK23_vvs"
 ];
 
-// Opfor military aircrafts    
+// Opfor military aircrafts
 opfor_air_overwrite = true;
 opfor_air_extension = [
 "rhs_vmf_recon_efreitor","rhs_vmf_recon_efreitor","rhs_vmf_recon_efreitor","rhs_vmf_recon_efreitor","rhs_vmf_recon_efreitor","rhs_vmf_recon_efreitor"];
@@ -396,6 +400,8 @@ vehicle_refuel_sources_extension = [
 ];
 
 // Elite vehicles that should be unlocked through military base capture.
+// If overwrite is true, vanilla Elite vehicles will be removed and replaced with the extension. NOTE: Only takes affect on mission restart.
+elite_vehicles_overwrite = true;
 elite_vehicles_extension = [
 	"RHS_AH64D",
 	"RHS_AH1Z",

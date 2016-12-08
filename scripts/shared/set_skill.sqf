@@ -27,11 +27,13 @@ if ( _wounded ) then {
 	_unit setSkill ["reloadSpeed", 0.1];
 } else {
 	if ( _side == GRLIB_side_friendly || _side == GRLIB_side_enemy ) then {
-		_unit setSkill ["aimingspeed", [ 0.35 * _skillmodifier ] call F_limitSkill];
+		// _unit setSkill ["aimingspeed", [ 0.35 * _skillmodifier ] call F_limitSkill];
+		_unit setSkill ["aimingspeed", [ 0.2 * _skillmodifier ] call F_limitSkill];
 		if ( _inVehicle ) then {
-			_unit setSkill ["aimingaccuracy", [ 0.65 * _skillmodifier ] call F_limitSkill];
+			_unit setSkill ["aimingaccuracy", [ 0.5 * _skillmodifier ] call F_limitSkill];
 		} else {
-			_unit setSkill ["aimingshake", [ 0.35 * _skillmodifier ] call F_limitSkill];
+			_unit setSkill ["aimingAccuracy", [ 0.3 * _skillmodifier ] call F_limitSkill];
+			_unit setSkill ["aimingshake", [ 0.3 * _skillmodifier ] call F_limitSkill];
 		};
 		_unit setSkill ["spottime", [ 0.5 * _skillmodifier ] call F_limitSkill];
 		_unit setSkill ["spotdistance", [ 0.5 * _skillmodifier ] call F_limitSkill];
