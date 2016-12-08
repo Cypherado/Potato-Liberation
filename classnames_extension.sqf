@@ -86,9 +86,7 @@ heavy_vehicles_extension = [
 
 air_vehicles_overwrite = true;
 air_vehicles_extension = [
-        ["CUP_B_USMC_MQ9",1,200,20],
-=======
-air_vehicles_extension = [
+	["CUP_B_USMC_MQ9",1,200,20],
 	["RHS_MELB_MH6M",0,40,12],
 	["RHS_MELB_AH6M_H",0,150,20],
 	["RHS_MELB_AH6M_L",0,175,20],
