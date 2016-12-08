@@ -422,7 +422,17 @@ GRLIB_blacklisted_from_arsenal = [
 	"I_AT_01_weapon_F",
 	"I_UAV_01_backpack_F",
 	"B_UAV_01_backpack_F",
-	"O_UAV_01_backpack_F"
+	"O_UAV_01_backpack_F",
+	"Item_optic_Nightstalker",
+	"rhs_ammo_fakel",
+	"rhs_ammo_fakels",
+	"rhs_ammo_zarya2",
+	"rhs_ammo_plamyam",
+	"rhs_ammo_m7a3_cs",
+	"rhs_ammo_mk3a2",
+	"rhs_ammo_m84",
+	"rhs_mag_m4009",
+	"rhs_g_vg40sz"
 ];
 if ( isNil "blacklisted_from_arsenal_extension" ) then { blacklisted_from_arsenal_extension = [] };
 GRLIB_blacklisted_from_arsenal = [] + blacklisted_from_arsenal_extension + GRLIB_blacklisted_from_arsenal;

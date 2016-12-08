@@ -1,28 +1,42 @@
 # Customized version of the ARMA 3 mission Liberation.
 
-## Current version : 1.3.2
+## Current version : 1.3.3
 
 ## Required Mods
-* http://www.rhsmods.org/mod/1#download
-* http://www.rhsmods.org/mod/2#download
-* http://steamcommunity.com/sharedfiles/filedetails/?id=620019431
-* http://steamcommunity.com/sharedfiles/filedetails/?id=323854117
-* http://steamcommunity.com/sharedfiles/filedetails/?id=598721423
-* http://steamcommunity.com/sharedfiles/filedetails/?id=388697912
-* http://steamcommunity.com/sharedfiles/filedetails/?id=366425329
-* http://steamcommunity.com/sharedfiles/filedetails/?id=582478120
-* http://steamcommunity.com/sharedfiles/filedetails/?id=730310357
-* http://steamcommunity.com/sharedfiles/filedetails/?id=713709341
-* http://steamcommunity.com/sharedfiles/filedetails/?id=639837898
-* http://steamcommunity.com/sharedfiles/filedetails/?id=615007497
-* http://steamcommunity.com/sharedfiles/filedetails/?id=333310405
-* http://steamcommunity.com/sharedfiles/filedetails/?id=450814997
-* http://steamcommunity.com/sharedfiles/filedetails/?id=498740884
-* http://steamcommunity.com/sharedfiles/filedetails/?id=497660133
-* http://steamcommunity.com/sharedfiles/filedetails/?id=541888371
-* http://steamcommunity.com/sharedfiles/filedetails/?id=497661914
+* [Advanced Urban Rappelling](http://steamcommunity.com/sharedfiles/filedetails/?id=730310357)
+* [Advanced Rappelling](http://steamcommunity.com/sharedfiles/filedetails/?id=713709341)
+* [Advanced Towing](http://steamcommunity.com/sharedfiles/filedetails/?id=639837898)
+* [Advanced Sling Loading](http://steamcommunity.com/sharedfiles/filedetails/?id=615007497)
+* [Arma Enhanced Movement](http://steamcommunity.com/sharedfiles/filedetails/?id=333310405)
+* [BWI - AT-6B + T-6A/C Pack](http://steamcommunity.com/sharedfiles/filedetails/?id=323854117)
+* [CBA_A3](http://steamcommunity.com/sharedfiles/filedetails/?id=450814997)
+* [CUP Weapons](http://steamcommunity.com/sharedfiles/filedetails/?id=497660133)
+* [CUP Vehicles](http://steamcommunity.com/sharedfiles/filedetails/?id=541888371)
+* [CUP Units](http://steamcommunity.com/sharedfiles/filedetails/?id=497661914)
+* [FHQ_Accessories](http://steamcommunity.com/sharedfiles/filedetails/?id=388697912)
+* [FIR AWS(AirWeaponSystem)](http://steamcommunity.com/sharedfiles/filedetails/?id=366425329)
+* [F-15 Eagle](http://steamcommunity.com/sharedfiles/filedetails/?id=582478120)
+* [MRT Accessory Functions](http://steamcommunity.com/sharedfiles/filedetails/?id=598721423)
+* [RHS:AFRF](http://www.rhsmods.org/mod/1#download)
+* [RHS:USAF](http://www.rhsmods.org/mod/2#download)
+* [task_force_radio](http://steamcommunity.com/sharedfiles/filedetails/?id=620019431)
+
+## Recomended Mods
+* [Blastcore: Phoenix 2](http://www.armaholic.com/page.php?id=23899)
+* [Blastcore Tracers](http://www.armaholic.com/page.php?id=24334)
+* [JSRS4 APEX](http://www.armaholic.com/page.php?id=27827)
+* [ShackTac User Interface](http://steamcommunity.com/sharedfiles/filedetails/?id=498740884)
 
 ## Changelog
+v1.3.3
+* Changed: FOB Truck changed to RHS MHQ truck
+* Changed: Huron replaced with RHS CH-47
+* Changed: Stun grenades are blacklisted
+* Added: Wall and Tent Hangar to buildable objects
+* Added: RHS MH-6M
+* Fixed (?): UAV bug
+
+
 v1.3.2
 
 * Fixed: Finally fixed the revive/earplug state issue.<br/><br/>

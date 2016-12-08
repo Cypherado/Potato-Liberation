@@ -9,10 +9,10 @@
 // Each of these should be unique, the same classnames for different purposes may cause various unpredictable issues with player actions. Or not. Just don't try.
 FOB_typename = nil;						// Default "Land_Cargo_HQ_V1_F";
 FOB_box_typename = nil;					// Default "B_Slingload_01_Cargo_F";
-FOB_truck_typename = nil;				// Default "B_Truck_01_box_F";
+FOB_truck_typename = rhsusf_M1083A1P2_B_M2_d_MHQ_fmtv_usarmy;				// Default "B_Truck_01_box_F";
 Arsenal_typename = nil;					// Default "B_supplyCrate_F";
 Respawn_truck_typename = nil;			// Default "B_Truck_01_medical_F";
-huron_typename = nil;					// Default "B_Heli_Transport_03_unarmed_F";
+huron_typename = RHS_CH_47F_10;					// Default "B_Heli_Transport_03_unarmed_F";
 ammobox_b_typename = nil;				// Default "Box_NATO_AmmoVeh_F";
 ammobox_o_typename = nil;				// Default "O_T_Truck_03_ammo_ghex_F";
 opfor_ammobox_transport = nil;			// Default "O_Truck_03_transport_F";    // Make sure this thing can transport ammo boxes (see box_transport_config down below) otherwise things will break
@@ -85,8 +85,13 @@ heavy_vehicles_extension = [
 ];
 
 air_vehicles_overwrite = true;
+<<<<<<< HEAD
 air_vehicles_extension = [
         ["CUP_B_USMC_MQ9",1,200,20],
+=======
+air_vehicles_extension = [	
+	["RHS_MELB_MH6M",0,40,12],
+>>>>>>> refs/remotes/origin/I-suck-at-this
 	["RHS_MELB_AH6M_H",0,150,20],
 	["RHS_MELB_AH6M_L",0,175,20],
 	["RHS_MELB_AH6M_M",0,125,20],
@@ -114,9 +119,15 @@ static_vehicles_extension = [
 buildings_overwrite = false;
 buildings_extension = [
     ["Land_IRMaskingCover_01_F",0,0,0],
+<<<<<<< HEAD
     ["Land_LampAirport_F",0,0,0],
 	["Land_TentHangar__V1_F",0,0,0],
 	["Land_Mil_WallBig_4m_F",0,0,0]
+=======
+    ["Land_TentHangar__V1_F",0,0,0],
+    ["Land_Mil_WallBig_4m_F",0,0,0],
+    ["Land_LampAirport_F",0,0,0]
+>>>>>>> refs/remotes/origin/I-suck-at-this
 ];
 
 support_vehicles_overwrite = false;		// If you're going to overwrite this, make sure you have at least Arsenal_typename, Respawn_truck_typename, FOB_box_typename and FOB_truck_typename in there
@@ -217,7 +228,8 @@ Cell_recycleable_vehicles = [
 
 // All the UAVs must be declared here, otherwise there shall be UAV controlling issues. Namely: you won't be able to control them.
 uavs = [
-["B_T_UAV_03_F",1,200,20]
+["B_T_UAV_03_F",1,200,20],
+["CUP_B_USMC_MQ9",1,200,20]	
 ];
 
 // Pre-made squads for the commander build menu. These shouldn't exceed 10 members.
@@ -438,7 +450,16 @@ blacklisted_from_arsenal_extension = [
 	"RHS_SPG9_Tripod_Bag",
 	"rhs_Tow_Gun_Bag",
 	"rhs_TOW_Tripod_Bag",
-        "Item_optic_Nightstalker"
+        "Item_optic_Nightstalker",
+	"rhs_ammo_fakel",
+	"rhs_ammo_fakels",
+	"rhs_ammo_zarya2",
+	"rhs_ammo_plamyam",
+	"rhs_ammo_m7a3_cs",
+	"rhs_ammo_mk3a2",
+	"rhs_ammo_m84",
+	"rhs_mag_m4009",
+	"rhs_g_vg40sz"
 ];
 
 // Configuration for ammo boxes transport
