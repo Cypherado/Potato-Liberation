@@ -186,7 +186,7 @@ Cell_recycleable_vehicles = [
 	["CUP_O_Ural_Refuel_RU",0,50,0],
 	["CUP_O_Ural_Reammo_RU",0,50,0],
 
-	["CUP_O_UAZ_SPG9_CHDKZ"0,50,0],
+	["CUP_O_UAZ_SPG9_CHDKZ",0,50,0],
 	["CUP_O_BRDM2_CHDKZ",0,50,0],
 	["CUP_O_UAZ_Open_CHDKZ",0,20,0],
 	["CUP_O_UAZ_MG_CHDKZ",0,35,0],
@@ -383,6 +383,8 @@ vehicle_refuel_sources_extension = [
 ];
 
 // Elite vehicles that should be unlocked through military base capture.
+// If overwrite is true, extension will replace vanilla list. If false, vanilla list will be used.
+elite_vehicles_overwrite = false;
 elite_vehicles_extension = [
 	"Steve_MBT_Kuma",
 	"Burnes_FV4034_01",

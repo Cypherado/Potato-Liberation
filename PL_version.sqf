@@ -33,6 +33,6 @@ player createDiaryRecord ["PL Version", ["1.3.3", format ["* Changed: FOB Truck 
 * Added: RHS MH-6M<br/><br/>
 * Fixed (?): UAV bug"]]];
 
-player createDiaryRecord ["PL Version", ["1.3.3 VAN", format ["* Reverted to Vanilla Units for testing stability."]]];
+player createDiaryRecord ["PL Version", ["1.3.3 VANILLA", format ["* Reverted to Vanilla Units for stability testing."]]];
 
 player createDiaryRecord ["PL Version", ["Current Version", format ["<font color='#ff8000'>Current version: </font> %1", localize "STR_MISSION_VERSION"]]];
