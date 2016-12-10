@@ -63,10 +63,10 @@ infantry_units_extension = [
 
 light_vehicles_overwrite = false;
 light_vehicles_extension = [
-        ["B_T_LSV_01_unarmed_F",0,0,2],
-        ["B_T_LSV_01_armed_F",0,10,3],
-        ["I_C_Offroad_02_unarmed_F",0,0,3],
-        ["C_Offroad_02_unarmed_F",0,0,3],
+      ["B_T_LSV_01_unarmed_F",0,0,2],
+      ["B_T_LSV_01_armed_F",0,10,3],
+      ["I_C_Offroad_02_unarmed_F",0,0,3],
+      ["C_Offroad_02_unarmed_F",0,0,3],
 	["rhsusf_m998_w_4dr",0,0,2],
 	["rhsusf_rg33_m2_d",0,10,3],
 	["fsf_fnk_norm_ce",0,0,3],
@@ -107,13 +107,13 @@ heavy_vehicles_extension = [
 
 air_vehicles_overwrite = false;
 air_vehicles_extension = [
-        ["O_T_VTOL_02_vehicle_F",0,300,60],
-        ["O_T_VTOL_02_infantry_F",0,300,60],
-        ["B_T_VTOL_01_armed_F",0,350,60],
-        ["B_T_VTOL_01_infantry_F",0,0,60],
-        ["B_T_VTOL_01_vehicle_F",0,0,60],
-        ["B_T_UAV_03_F",1,200,20],	
-        ["greuh_aw159_t",0,0,12],
+  ["O_T_VTOL_02_vehicle_F",0,300,60],
+  ["O_T_VTOL_02_infantry_F",0,300,60],
+  ["B_T_VTOL_01_armed_F",0,350,60],
+  ["B_T_VTOL_01_infantry_F",0,0,60],
+  ["B_T_VTOL_01_vehicle_F",0,0,60],
+  ["B_T_UAV_03_F",1,200,20],
+  ["greuh_aw159_t",0,0,12],
 	["greuh_aw159_a",0,50,12],
 	["I_Heli_light_03_unarmed_F",0,0,12],
 	["I_Heli_light_03_F",0,50,12],
@@ -139,7 +139,7 @@ air_vehicles_extension = [
 
 static_vehicles_overwrite = false;
 static_vehicles_extension = [
-     
+
 ];
 
 buildings_overwrite = false;
@@ -157,7 +157,7 @@ support_vehicles_extension = [
 	["JNS_Skycrane_Pod_Transport_BLU_Black",5,0,0]
 ];
 
-// Recycleable list for OPFOR vehicles recovered from the battlefield. 
+// Recycleable list for OPFOR vehicles recovered from the battlefield.
 // Values are high because they are recycled for 65% of their value.
 // Baseline for light vehicles/troop transports is 35, APCs start at 100.
 Cell_recycleable_vehicles = [
@@ -183,7 +183,7 @@ Cell_recycleable_vehicles = [
 	["O_Heli_Attack_02_F",0,250,0],
 	["O_Heli_Attack_02_black_F",0,250,0],
 	["O_Plane_CAS_02_F",0,400,0],
-	
+
 	// OPFOR APEX Variants
 	["O_T_MRAP_02_ghex_F",0,20,0],
 	["O_T_MRAP_02_hmg_ghex_F",0,35,0],
@@ -193,18 +193,18 @@ Cell_recycleable_vehicles = [
 	["O_T_MBT_02_arty_ghex_F",0,500,0],
 	["O_G_Offroad_01_armed_F",0,30,0],
 	["I_G_Offroad_01_armed_F",0,30,0],
-	
+
 	// CUP OPFOR Compatiblity
 	["CUP_O_Ural_Repair_RU",0,50,0],
 	["CUP_O_Ural_Empty_RU",0,25,0],
 	["CUP_O_Ural_Refuel_RU",0,50,0],
 	["CUP_O_Ural_Reammo_RU",0,50,0],
-	
+
 	["CUP_O_UAZ_SPG9_CHDKZ",0,50,0],
 	["CUP_O_BRDM2_CHDKZ",0,50,0],
 	["CUP_O_UAZ_Open_CHDKZ",0,20,0],
 	["CUP_O_UAZ_MG_CHDKZ",0,35,0],
-	
+
 	["CUP_O_UAZ_MG_RU",0,35,0],
 	["CUP_O_GAZ_Vodnik_PK_RU",0,50,0],
 	["CUP_O_GAZ_Vodnik_AGS_RU",0,75,0],
@@ -214,13 +214,13 @@ Cell_recycleable_vehicles = [
 	["CUP_O_BMP3_RU",0,175,0],
 	["CUP_O_T72_RU",0,400,0],
 	["CUP_O_T90_RU",0,500,0],
-	
+
 	["CUP_O_Mi8_VIV_RU",0,200,0],
 	["CUP_O_MI6A_RU",0,200,0],
 	["CUP_O_Mi24_V_RU",0,350,0],
 	["CUP_O_Ka60_Grey_R	U",0,100,0],
-	
-	
+
+
 	// Civilian
 	["C_Offroad_02_unarmed_F",0,20,0]
 ];
@@ -232,7 +232,7 @@ uavs = [
 
 // Pre-made squads for the commander build menu. These shouldn't exceed 10 members.
 // Light infantry squad
-blufor_squad_inf_light = ["B_T_Soldier_TL_F","B_T_Soldier_AR_F","B_T_Soldier_GL_F","B_T_Soldier_LAT_F"]; 
+blufor_squad_inf_light = ["B_T_Soldier_TL_F","B_T_Soldier_AR_F","B_T_Soldier_GL_F","B_T_Soldier_LAT_F"];
 
 
 // Heavy infantry squad
@@ -305,7 +305,7 @@ militia_vehicles_extension = [
 	"CUP_O_BRDM2_CHDKZ",
 	"CUP_O_UAZ_Open_CHDKZ",
 	"CUP_O_UAZ_MG_CHDKZ"
-	
+
 ];
 
 // All the vehicles that can spawn as sector defenders and patrols
@@ -328,7 +328,7 @@ opfor_vehicles_low_intensity_extension = [
 	"CUP_O_GAZ_Vodnik_PK_RU",
 	"CUP_O_GAZ_Vodnik_AGS_RU",
 	"CUP_O_BMP2_RU",
-	"CUP_O_T72_RU"       
+	"CUP_O_T72_RU"
 ];
 
 // All the vehicles that can spawn as battlegroup members
@@ -370,7 +370,7 @@ opfor_choppers_extension = [
 	"CUP_O_Ka60_Grey_RU"
 ];
 
-// Opfor military aircrafts    
+// Opfor military aircrafts
 opfor_air_overwrite = true;
 opfor_air_extension = [
 "CUP_O_RUS_SpecOps","CUP_O_RUS_SpecOps","CUP_O_RUS_SpecOps","CUP_O_RUS_SpecOps","CUP_O_RUS_SpecOps","CUP_O_RUS_SpecOps"];
