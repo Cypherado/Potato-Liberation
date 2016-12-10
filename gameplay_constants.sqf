@@ -1,4 +1,5 @@
-GRLIB_save_key = "GREUH_LIBERATION_SAVEGAME";	// change this value if you want different savegames on different map
+// GRLIB_save_key = "GREUH_LIBERATION_SAVEGAME";	// change this value if you want different savegames on different map
+GRLIB_save_key = "GREUH_LIBERATION_SAVEGAME_VAN"; // Vanilla version save key.
 
 GRLIB_side_friendly = WEST;
 GRLIB_side_enemy = EAST;
