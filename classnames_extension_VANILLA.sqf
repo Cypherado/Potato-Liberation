@@ -180,33 +180,6 @@ Cell_recycleable_vehicles = [
 	["O_G_Offroad_01_armed_F",0,25,0],
 	["I_G_Offroad_01_armed_F",0,25,0],
 	
-	// CUP OPFOR Compatiblity
-	["CUP_O_Ural_Repair_RU",0,50,0],
-	["CUP_O_Ural_Empty_RU",0,25,0],
-	["CUP_O_Ural_Refuel_RU",0,50,0],
-	["CUP_O_Ural_Reammo_RU",0,50,0],
-	
-	["CUP_O_UAZ_SPG9_CHDKZ"0,50,0],
-	["CUP_O_BRDM2_CHDKZ",0,50,0],
-	["CUP_O_UAZ_Open_CHDKZ",0,20,0],
-	["CUP_O_UAZ_MG_CHDKZ",0,35,0],
-	
-	["CUP_O_UAZ_MG_RU",0,35,0],
-	["CUP_O_GAZ_Vodnik_PK_RU",0,50,0],
-	["CUP_O_GAZ_Vodnik_AGS_RU",0,65,0],
-	["CUP_O_GAZ_Vodnik_BPPU_RU",0,100,0],
-	["CUP_O_BRDM2_RUS",0,125,0],
-	["CUP_O_BMP2_RU",0,125,0],
-	["CUP_O_BMP3_RU",0,175,0],
-	["CUP_O_T72_RU",0,400,0],
-	["CUP_O_T90_RU",0,500,0],
-	
-	["CUP_O_Mi8_VIV_RU",0,200,0],
-	["CUP_O_MI6A_RU",0,200,0],
-	["CUP_O_Mi24_V_RU",0,350,0],
-	["CUP_O_Ka60_Grey_R	U",0,100,0],
-	
-	
 	// Civilian
 	["C_Offroad_02_unarmed_F",0,20,0]
 ];
@@ -383,6 +356,7 @@ vehicle_refuel_sources_extension = [
 ];
 
 // Elite vehicles that should be unlocked through military base capture.
+elite_vehicles_overwrite = false;
 elite_vehicles_extension = [
 	"Steve_MBT_Kuma",
 	"Burnes_FV4034_01",

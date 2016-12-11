@@ -131,7 +131,7 @@ support_vehicles_extension = [
 
 // Recycleable list for OPFOR vehicles recovered from the battlefield.
 // Values are high because they are recycled for 65% of their value.
-// Baseline for light vehicles/troop transports is 35, APCs start at 100.
+// Baseline for light vehicles/troop transports is 50, APCs start at 100.
 Cell_recycleable_vehicles = [
 	// OPFOR Vanilla Vehicles
 	["O_Truck_02_transport_F",0,35,0],
